@@ -1,6 +1,6 @@
 +++
 date = "2017-04-29T22:49:49+01:00"
-draft = true
+draft = false
 title = "next steps"
 showonlyimage = false
 image = "img/next-steps.jpg"
