@@ -10,30 +10,30 @@ Visiting today, been coming a couple of weeks? We would love to get to know you 
 <!--more-->
 
 
-<form class="form-horizontal" netlify>
+<form class="form-horizontal" netlify name="connect">
     <div class="form-group">
         <div class="col-xs-12">
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="christian">
+                <input type="checkbox" value="christian" name="choice">
                 Became a Christian Today?
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="new">
+                <input type="checkbox" value="new" name="choice">
                 New to Church?
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="connect">
+                <input type="checkbox" value="connect" name="choice">
                 Want to connect to C3?
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="update">
+                <input type="checkbox" value="update" name="choice">
                 Need to update your details?
               </label>
             </div>
@@ -43,40 +43,40 @@ Visiting today, been coming a couple of weeks? We would love to get to know you 
 
     <div class="form-group">
         <div class="col-xs-12">
-            <input type="text" class="form-control" id="exampleInputName" placeholder="First Name">
+            <input type="text" class="form-control" id="exampleInputName" placeholder="First Name" name="first_name">
         </div>
     </div>
     <div class="form-group">
         <div class="col-xs-12">
-            <input type="text" class="form-control" id="exampleInputName" placeholder="Surname">
+            <input type="text" class="form-control" id="exampleInputName" placeholder="Surname" name="surname">
         </div>
     </div>
     <div class="form-group">
         <div class="col-xs-12">
-            <textarea class="form-control" rows="3" placeholder="Address"></textarea>
+            <textarea class="form-control" rows="3" placeholder="Address" name="address"></textarea>
         </div>
     </div>
     <div class="form-group">
         <div class="col-xs-12">
-            <input type="text" class="form-control" id="exampleInputName" placeholder="City">
+            <input type="text" class="form-control" id="exampleInputName" placeholder="City" name="city">
         </div>
     </div>
     <div class="form-group">
         <div class="col-xs-12">
-            <input type="email" class="form-control" id="exampleInputName" placeholder="Email">
+            <input type="email" class="form-control" id="exampleInputName" placeholder="Email" name="email">
         </div>
     </div>
     <div class="form-group">
         <div class="col-xs-12">
-            <input type="phone" class="form-control" id="exampleInputName" placeholder="Phone">
+            <input type="phone" class="form-control" id="exampleInputName" placeholder="Phone" name="phone">
         </div>
     </div>
     <div class="form-group">
         <div class="col-sm-6">
-            <input type="date" class="form-control" id="inputPassword3" placeholder="D.O.B">
+            <input type="date" class="form-control" id="inputPassword3" placeholder="D.O.B" name="date_of_birth">
         </div>
         <div class="col-sm-6">
-            <input type="text" class="form-control" id="inputPassword3" placeholder="Postcode">
+            <input type="text" class="form-control" id="inputPassword3" placeholder="Postcode" name="postcode">
         </div>
     </div>
     <div class="form-group">

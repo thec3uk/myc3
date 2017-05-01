@@ -17,19 +17,19 @@ Our Growth Track is designed to do just that. It consists of 3 courses to develo
 
 Fill out the form to register your interest:
 
-<form class="form" netlify>
+<form class="form" netlify name="next-steps">
     <div class="form-group">
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
     </div>
     <div class="form-group">
-        <input type="text" class="form-control" id="exampleInputName" placeholder="First Name">
+        <input type="text" class="form-control" id="exampleInputName" placeholder="First Name" name="first_name">
     </div>
     <div class="form-group">
-        <input type="text" class="form-control" id="exampleInputName" placeholder="Surname">
+        <input type="text" class="form-control" id="exampleInputName" placeholder="Surname" name="surname">
     </div>
     <div class="form-group">
-        <select class="form-control">
-            <option value="" disabled selected>Select a course</option>
+        <select class="form-control" name="course">
+          <option value="" disabled selected>Select a course</option>
           <option>Discovery Track</option>
           <option>Deeper Course</option>
           <option>Leadership</option>
