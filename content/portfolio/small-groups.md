@@ -11,7 +11,7 @@ We meet through out the week to do life together. the highs, the lows and knowin
 
 Not part of one? Fill out the form below and we'll be in contact with the best options for you.
 
-<form class="form">
+<form class="form" netlify>
     <div class="form-group">
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
     </div>

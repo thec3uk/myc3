@@ -10,7 +10,7 @@ Visiting today, been coming a couple of weeks? We would love to get to know you 
 <!--more-->
 
 
-<form class="form-horizontal">
+<form class="form-horizontal" netlify>
     <div class="form-group">
         <div class="col-xs-12">
             <div class="checkbox">

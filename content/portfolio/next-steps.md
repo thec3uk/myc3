@@ -17,7 +17,7 @@ Our Growth Track is designed to do just that. It consists of 3 courses to develo
 
 Fill out the form to register your interest:
 
-<form class="form">
+<form class="form" netlify>
     <div class="form-group">
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
     </div>

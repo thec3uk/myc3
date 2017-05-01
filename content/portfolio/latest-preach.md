@@ -12,7 +12,7 @@ Listen to the latest preach or review the connect group questions
 
 <div class="row">
     <div class="col-xs-12">
-        <button type="button" class="btn btn-lg btn-primary">Listen Now</button>
+        <a type="button" class="btn btn-lg btn-primary" href="http://thec3.uk/media/allmedia.aspx">Listen Now</a>
     </div>
 </div>
 
