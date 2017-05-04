@@ -3,6 +3,7 @@ date = "2017-04-29T22:49:17+01:00"
 draft = false
 title = "small groups"
 image = "img/small-groups.jpg"
+url = "/small-groups"
 
 +++
 

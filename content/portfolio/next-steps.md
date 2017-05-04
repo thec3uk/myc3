@@ -4,6 +4,7 @@ draft = false
 title = "next steps"
 showonlyimage = false
 image = "img/next-steps.jpg"
+url = "/next-steps"
 +++
 
 Want to connect deeper into C3?

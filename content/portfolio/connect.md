@@ -3,6 +3,7 @@ date = "2017-04-29T22:49:02+01:00"
 draft = false
 title = "connect"
 image = "img/connect.jpg"
+url = "/connect"
 
 +++
 

@@ -4,6 +4,7 @@ draft = false
 image = "img/latest-preach.jpg"
 showonlyimage = false
 title = "latest preach"
+url = "/latest-preach"
 
 +++
 
