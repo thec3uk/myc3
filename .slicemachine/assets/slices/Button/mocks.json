@@ -1,0 +1,67 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "linkTitle": "enable global models"
+    }
+  },
+  {
+    "variation": "redButton",
+    "name": "Red button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "linkTitle": "e-enable customized blockchains"
+    }
+  },
+  {
+    "variation": "yellowButton",
+    "name": "Yellow button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "linkTitle": "embrace enterprise markets"
+    }
+  },
+  {
+    "variation": "tealButton",
+    "name": "Teal button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "linkTitle": "deliver ubiquitous users"
+    }
+  },
+  {
+    "variation": "purpleButton",
+    "name": "Purple Button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkTitle": "seize distributed interfaces"
+    }
+  }
+]
