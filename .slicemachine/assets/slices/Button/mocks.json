@@ -1,0 +1,67 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkTitle": "synergize visionary applications"
+    }
+  },
+  {
+    "variation": "redButton",
+    "name": "Red button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "linkTitle": "disintermediate dot-com e-services"
+    }
+  },
+  {
+    "variation": "yellowButton",
+    "name": "Yellow button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "linkTitle": "seize one-to-one web services"
+    }
+  },
+  {
+    "variation": "tealButton",
+    "name": "Teal button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "linkTitle": "seize intuitive platforms"
+    }
+  },
+  {
+    "variation": "purpleButton",
+    "name": "Purple Button",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "linkUrl": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "linkTitle": "utilize rich eyeballs"
+    }
+  }
+]

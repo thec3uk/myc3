@@ -1,0 +1,18 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Novecento Sans Wide";
+    font-weight: bold;
+    src: url("./Novecentosanswide-Bold.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Novecento Sans Wide";
+    font-weight: 100;
+    src: url("./Novecentosanswide-UltraLight.otf") format("opentype");
+  }
+}

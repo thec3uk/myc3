@@ -1,0 +1,33 @@
+{
+  "id": "header",
+  "type": "SharedSlice",
+  "name": "Header",
+  "description": "Header",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Header",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "logo": {
+          "config": {
+            "label": "logo",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
