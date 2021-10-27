@@ -722,6 +722,20 @@
             "label": "Has Newsletter Slice"
           }
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "button": {
+              "type": "SharedSlice"
+            },
+            "header": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }

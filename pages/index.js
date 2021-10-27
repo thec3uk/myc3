@@ -5,7 +5,7 @@ import { useGetStaticProps } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 
 const Page = (props) => (
-  <div className="bg-gray-50 dark:bg-purple-700 absolute inset-0">
+  <div className="bg-gray-50 dark:bg-purple-900 w-screen absolute pb-20">
     <SliceZone {...props} resolver={resolver} />
   </div>
 );
@@ -16,7 +16,7 @@ export const getStaticProps = useGetStaticProps({
   type: "page",
   queryType: "repeat",
   apiParams: {
-    uid: "home",
+    uid: "myc3",
   },
 });
 

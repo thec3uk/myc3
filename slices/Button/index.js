@@ -15,7 +15,7 @@ const variations = {
 };
 
 const Button = ({ slice }) => {
-  const buttonClasses = `text-2xl mx-4 py-4 border uppercase shadow hover:translate-y-px hover:shadow-sm col-start-1 col-span-1 md:col-span-2 md:col-start-2 text-center ${
+  const buttonClasses = `text-2xl mx-4 lg:mx-20 py-4 border uppercase shadow hover:translate-y-px hover:shadow-sm col-start-1 col-span-1 md:col-span-2 md:col-start-2 text-center ${
     variations[slice.variation]
   }`;
   return (

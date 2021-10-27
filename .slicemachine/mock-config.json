@@ -1,11 +1,6 @@
 {
   "slices": {
-    "Logo": {},
-    "Button": {
-      "default-slice": {
-        "primary": {}
-      }
-    }
+    "Logo": {}
   },
   "_cts": {
     "page": {}

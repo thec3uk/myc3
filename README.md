@@ -1,8 +1,8 @@
 # todo
 
+- Footer component
 - transfer to the main C3 prismic repo.
 - Deploy and link up dns
-- Footer component
 
 Questions: what on here is permanent and what is transient?
 This directs the next things that get transfered over to a native feel
@@ -15,7 +15,6 @@ This directs the next things that get transfered over to a native feel
 Connect with us http://thec3.uk/connect - content page
 Book in for a Baptism Class http://thec3.uk/baptism - content page
 Light Night 2021 http://thec3.uk/lightnight - redirect
-Breathe Banquet http://breathe.thec3.uk/banquet - redirect/page
 Great Decision http://thec3.uk/greatdecision - content page
 Check out our courses http://thec3.uk/courses - content page
 Join a Team http://thec3.uk/teamc3 - content page
