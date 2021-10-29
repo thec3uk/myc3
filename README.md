@@ -1,8 +1,7 @@
 # todo
 
-- Footer component
-- transfer to the main C3 prismic repo.
-- Deploy and link up dns
+- Redirects
+- domain based deploys - intermediate service that manages which netlify site to build?
 
 Questions: what on here is permanent and what is transient?
 This directs the next things that get transfered over to a native feel

@@ -733,6 +733,9 @@
             },
             "header": {
               "type": "SharedSlice"
+            },
+            "footer": {
+              "type": "SharedSlice"
             }
           }
         }
