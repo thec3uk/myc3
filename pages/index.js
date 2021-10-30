@@ -5,7 +5,7 @@ import { useGetStaticProps } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 
 const Page = (props) => (
-  <div className="bg-gray-50 dark:bg-purple-900 w-screen absolute pb-20">
+  <div className="bg-gray-50 dark:bg-purple-900 w-screen absolute pb-4">
     <SliceZone {...props} resolver={resolver} />
   </div>
 );
