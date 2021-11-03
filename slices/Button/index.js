@@ -15,11 +15,11 @@ const variations = {
 };
 
 const Button = ({ slice }) => {
-  const buttonClasses = `text-2xl mx-4 lg:mx-20 py-4 border uppercase shadow hover:translate-y-px hover:shadow-sm col-start-1 col-span-1 md:col-span-2 md:col-start-2 text-center ${
+  const buttonClasses = `text-lg mx-4 lg:mx-20 py-3 border shadow hover:translate-y-px hover:shadow-sm col-start-1 col-span-1 md:col-span-2 md:col-start-2 text-center ${
     variations[slice.variation]
   }`;
   return (
-    <section className="grid grid-cols-1 md:grid-cols-4 justify-center items-center my-12">
+    <section className="grid grid-cols-1 md:grid-cols-4 justify-center items-center my-6">
       {slice.primary.linkUrl.link_type === "Web" ? (
         <a href={slice.primary.linkUrl.url} className={buttonClasses}>
           {slice.primary.linkTitle}
