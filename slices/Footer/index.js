@@ -19,14 +19,17 @@ const Footer = ({ slice }) => (
       </a>
     </div>
     <div className="space-x-2">
-      {slice.items.map((item) => (
-        <a
-          className="text-gray-900 hover:text-gray-700 active:text-gray-800 dark:text-gray-50 dark:hover:text-gray-200 dark:active:text-gray-100 hover:underline whitespace-nowrap"
-          href={item.linkUrl}
-        >
-          {item.linkTitle}
-        </a>
-      ))}
+      {slice.items.map((item) => {
+        return (
+          <a
+            key={item.linkUrl.url}
+            className="text-gray-900 hover:text-gray-700 active:text-gray-800 dark:text-gray-50 dark:hover:text-gray-200 dark:active:text-gray-100 hover:underline whitespace-nowrap"
+            href={item.linkUrl.url}
+          >
+            {item.linkTitle}
+          </a>
+        );
+      })}
     </div>
   </section>
 );
