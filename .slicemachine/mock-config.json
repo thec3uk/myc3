@@ -1,6 +1,7 @@
 {
   "slices": {
-    "Logo": {}
+    "Logo": {},
+    "Button": {}
   },
   "_cts": {
     "page": {},

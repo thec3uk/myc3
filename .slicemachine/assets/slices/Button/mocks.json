@@ -5,11 +5,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
+      "linkTitle": "expedite 24/7 users",
       "linkUrl": {
         "link_type": "Web",
-        "url": "http://google.com"
-      },
-      "linkTitle": "mesh dot-com technologies"
+        "url": "https://slicemachine.dev"
+      }
     }
   },
   {
@@ -18,11 +18,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
+      "linkTitle": "exploit seamless platforms",
       "linkUrl": {
         "link_type": "Web",
         "url": "http://google.com"
-      },
-      "linkTitle": "benchmark impactful blockchains"
+      }
     }
   },
   {
@@ -31,11 +31,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
+      "linkTitle": "reinvent enterprise convergence",
       "linkUrl": {
         "link_type": "Web",
         "url": "https://slicemachine.dev"
-      },
-      "linkTitle": "empower web-enabled relationships"
+      }
     }
   },
   {
@@ -44,11 +44,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
+      "linkTitle": "syndicate real-time applications",
       "linkUrl": {
         "link_type": "Web",
-        "url": "http://twitter.com"
-      },
-      "linkTitle": "brand end-to-end experiences"
+        "url": "https://prismic.io"
+      }
     }
   },
   {
@@ -57,11 +57,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
+      "linkTitle": "repurpose real-time eyeballs",
       "linkUrl": {
         "link_type": "Web",
         "url": "http://google.com"
-      },
-      "linkTitle": "strategize interactive networks"
+      }
     }
   }
 ]
