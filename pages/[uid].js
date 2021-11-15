@@ -9,7 +9,7 @@ const Page = (props) => <SliceZone {...props} resolver={resolver} />;
 // COPY FROM next-slicezone/src/features/query.js
 const multiQueryTypes = ["repeat", "repeatable", "multi"];
 
-export async function query({ queryType, apiParams, type, client }) {
+async function query({ queryType, apiParams, type, client }) {
   const { uid, ...restApiParams } = apiParams;
   const caller =
     multiQueryTypes.indexOf(queryType) !== -1
@@ -20,23 +20,12 @@ export async function query({ queryType, apiParams, type, client }) {
 }
 // COPY END
 
-// Fetch content from prismic
-export const getStaticProps = async ({
+export const getServerSideProps = async ({
   preview = null,
   previewData = {},
   params = {},
+  ...rest
 }) => {
-  const paths = useGetStaticProps({
-    client: Client(),
-    queryType: "repeat",
-    type: "page",
-    apiParams({ params }) {
-      return {
-        uid: params.uid,
-      };
-    },
-  });
-
   const { ref = null } = previewData;
 
   const redirects = await query({
@@ -51,7 +40,11 @@ export const getStaticProps = async ({
     client: Client(),
   });
 
-  if (redirects && redirects.data.destination) {
+  if (
+    redirects &&
+    redirects.tags.includes("domain:myc3.life") &&
+    redirects.data.destination
+  ) {
     return {
       redirect: {
         destination: redirects.data.destination.url,
@@ -60,48 +53,62 @@ export const getStaticProps = async ({
     };
   }
 
-  return paths({ params });
+  return {
+    props: {}, // will be passed to the page component as props
+  };
 };
 
-export const getStaticPaths = (obj) => {
-  const pages = useGetStaticPaths({
-    client: Client(),
-    type: "page",
-    formatPath: (prismicDocument) => {
-      // console.log(prismicDocument);
-      if (prismicDocument.tags.includes("domain:myc3.life")) {
-        return {
-          params: {
-            uid: prismicDocument.uid,
-          },
-        };
-      }
-      return null;
-    },
-  });
+// Fetch content from prismic
+// export const getStaticProps = useGetStaticProps({
+//   client: Client(),
+//   queryType: "repeat",
+//   type: "page",
+//   apiParams({ params }) {
+//     return {
+//       uid: params.uid,
+//     };
+//   },
+// });
 
-  const redirects = useGetStaticPaths({
-    client: Client(),
-    type: "redirect",
-    formatPath: (prismicDocument) => {
-      // console.log(prismicDocument);
-      if (prismicDocument.tags.includes("domain:myc3.life")) {
-        return {
-          params: {
-            uid: prismicDocument.uid,
-          },
-        };
-      }
-      return null;
-    },
-  });
-  return Promise.all([pages(), redirects()]).then((response) => {
-    let paths = response.flatMap((item) => item.paths);
-    return {
-      paths: paths,
-      fallback: false,
-    };
-  });
-};
+// export const getStaticPaths = (obj) => {
+//   const pages = useGetStaticPaths({
+//     client: Client(),
+//     type: "page",
+//     formatPath: (prismicDocument) => {
+//       // console.log(prismicDocument);
+//       if (prismicDocument.tags.includes("domain:myc3.life")) {
+//         return {
+//           params: {
+//             uid: prismicDocument.uid,
+//           },
+//         };
+//       }
+//       return null;
+//     },
+//   });
+
+//   const redirects = useGetStaticPaths({
+//     client: Client(),
+//     type: "redirect",
+//     formatPath: (prismicDocument) => {
+//       // console.log(prismicDocument);
+//       if (prismicDocument.tags.includes("domain:myc3.life")) {
+//         return {
+//           params: {
+//             uid: prismicDocument.uid,
+//           },
+//         };
+//       }
+//       return null;
+//     },
+//   });
+//   return Promise.all([pages(), redirects()]).then((response) => {
+//     let paths = response.flatMap((item) => item.paths);
+//     return {
+//       paths: paths,
+//       fallback: true,
+//     };
+//   });
+// };
 
 export default Page;
