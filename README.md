@@ -2,6 +2,7 @@
 
 - Redirects
 - domain based deploys - intermediate service that manages which netlify site to build?
+  - This is either a github action or a netlify plugin
 
 Questions: what on here is permanent and what is transient?
 This directs the next things that get transfered over to a native feel
