@@ -25,8 +25,8 @@ const Button = ({ slice }) => {
           {slice.primary.linkTitle}
         </a>
       ) : (
-        <Link href={slice.primary.linkUrl.url} className={buttonClasses}>
-          <a>{slice.primary.linkTitle}</a>
+        <Link href={slice.primary.linkUrl.url}>
+          <a className={buttonClasses}>{slice.primary.linkTitle}</a>
         </Link>
       )}
     </section>
