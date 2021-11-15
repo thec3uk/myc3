@@ -11,21 +11,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Button",
       "primary": {
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "linkTitle": {
           "config": {
             "label": "linkTitle",
             "placeholder": "Click me...!"
           },
           "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "linkUrl",
+            "placeholder": "A url to somewhere else!",
+            "select": null,
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
@@ -37,21 +37,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Button",
       "primary": {
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "linkTitle": {
           "config": {
             "label": "linkTitle",
             "placeholder": "Click me...!"
           },
           "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "linkUrl",
+            "placeholder": "A url to somewhere else!",
+            "select": null,
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
@@ -63,21 +63,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Button",
       "primary": {
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "linkTitle": {
           "config": {
             "label": "linkTitle",
             "placeholder": "Click me...!"
           },
           "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "linkUrl",
+            "placeholder": "A url to somewhere else!",
+            "select": null,
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
@@ -89,21 +89,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Button",
       "primary": {
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "linkTitle": {
           "config": {
             "label": "linkTitle",
             "placeholder": "Click me...!"
           },
           "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "linkUrl",
+            "placeholder": "A url to somewhere else!",
+            "select": null,
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
@@ -115,21 +115,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Button",
       "primary": {
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": "web",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        },
         "linkTitle": {
           "config": {
             "label": "linkTitle",
             "placeholder": "Click me...!"
           },
           "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "linkUrl",
+            "placeholder": "A url to somewhere else!",
+            "select": null,
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
