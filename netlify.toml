@@ -5,7 +5,7 @@
 [[plugins]]
   package = "./netlify/header-based-gating"
     [plugins.inputs]
-    http_header_name = "X-C3-DOMAIN"
+    http_header_name = "secret"
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
