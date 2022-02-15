@@ -3,4 +3,9 @@
   publish = "out"
 
 [[plugins]]
+  package = "./netlify/header-based-gating"
+    [plugins.inputs]
+    http_header_name = "X-C3-DOMAIN"
+[[plugins]]
   package = "@netlify/plugin-nextjs"
+

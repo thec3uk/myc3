@@ -1,0 +1,4 @@
+name: header-based-gating
+inputs:
+  - name: http_header_name
+    description: HTTP to look for to in the inbound webhook
