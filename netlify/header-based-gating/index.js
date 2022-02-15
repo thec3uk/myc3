@@ -10,7 +10,10 @@ module.exports = {
         http_header_name
       ];
     console.log(webhook_value);
-    if (!netlifyConfig.build.environment.URL.endsWith(webhook_value)) {
+    if (
+      webhook_value &&
+      !netlifyConfig.build.environment.URL.endsWith(webhook_value)
+    ) {
       build.cancelBuild("URL doesn't provided value");
     }
   },
