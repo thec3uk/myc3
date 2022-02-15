@@ -5,6 +5,6 @@ module.exports = {
     netlifyConfig,
   }) => {
     console.log(http_header_name);
-    console.log(netlifyConfig.build.environment.INCOMING_HOOK_BODY);
+    console.log(netlifyConfig.build.environment);
   },
 };
