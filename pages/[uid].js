@@ -4,8 +4,13 @@ import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 
 import resolver from "../sm-resolver.js";
 
-const Page = (props) => <SliceZone {...props} resolver={resolver} />;
-
+const Page = (props) => {
+  return (
+    <div className="bg-gray-50 dark:bg-purple-900 w-screen min-h-screen absolute pb-4 dark:text-grayscale-50">
+      <SliceZone {...props} resolver={resolver} />
+    </div>
+  );
+};
 // COPY FROM next-slicezone/src/features/query.js
 const multiQueryTypes = ["repeat", "repeatable", "multi"];
 
@@ -52,63 +57,22 @@ export const getServerSideProps = async ({
       },
     };
   }
-
-  return {
-    props: {}, // will be passed to the page component as props
-  };
+  const page = await query({
+    queryType: "repeat",
+    apiParams: Object.assign(
+      { ref },
+      {
+        uid: params.uid,
+      }
+    ),
+    type: "page",
+    client: Client(),
+  });
+  if (page && page.tags.includes("domain:myc3.life")) {
+    return {
+      props: { ...page, slices: page.data.body },
+    };
+  }
 };
-
-// Fetch content from prismic
-// export const getStaticProps = useGetStaticProps({
-//   client: Client(),
-//   queryType: "repeat",
-//   type: "page",
-//   apiParams({ params }) {
-//     return {
-//       uid: params.uid,
-//     };
-//   },
-// });
-
-// export const getStaticPaths = (obj) => {
-//   const pages = useGetStaticPaths({
-//     client: Client(),
-//     type: "page",
-//     formatPath: (prismicDocument) => {
-//       // console.log(prismicDocument);
-//       if (prismicDocument.tags.includes("domain:myc3.life")) {
-//         return {
-//           params: {
-//             uid: prismicDocument.uid,
-//           },
-//         };
-//       }
-//       return null;
-//     },
-//   });
-
-//   const redirects = useGetStaticPaths({
-//     client: Client(),
-//     type: "redirect",
-//     formatPath: (prismicDocument) => {
-//       // console.log(prismicDocument);
-//       if (prismicDocument.tags.includes("domain:myc3.life")) {
-//         return {
-//           params: {
-//             uid: prismicDocument.uid,
-//           },
-//         };
-//       }
-//       return null;
-//     },
-//   });
-//   return Promise.all([pages(), redirects()]).then((response) => {
-//     let paths = response.flatMap((item) => item.paths);
-//     return {
-//       paths: paths,
-//       fallback: true,
-//     };
-//   });
-// };
 
 export default Page;
