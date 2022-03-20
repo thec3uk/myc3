@@ -1,0 +1,410 @@
+{
+  "slices": {
+    "components": {
+      "button": {
+        "library": "slices",
+        "id": "button",
+        "name": "Button",
+        "description": "Button",
+        "model": {
+          "id": "button",
+          "type": "SharedSlice",
+          "name": "Button",
+          "description": "Button",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": "Click me...!"
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "A url to somewhere else!",
+                    "select": null,
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "redButton",
+              "name": "Red button",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": "Click me...!"
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "A url to somewhere else!",
+                    "select": null,
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "yellowButton",
+              "name": "Yellow button",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": "Click me...!"
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "A url to somewhere else!",
+                    "select": null,
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "tealButton",
+              "name": "Teal button",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": "Click me...!"
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "A url to somewhere else!",
+                    "select": null,
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "purpleButton",
+              "name": "Purple Button",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": "Click me...!"
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "A url to somewhere else!",
+                    "select": null,
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "linkTitle": "expedite 24/7 users",
+              "linkUrl": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          },
+          "redButton": {
+            "variation": "redButton",
+            "name": "Red button",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "linkTitle": "exploit seamless platforms",
+              "linkUrl": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          },
+          "yellowButton": {
+            "variation": "yellowButton",
+            "name": "Yellow button",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "linkTitle": "reinvent enterprise convergence",
+              "linkUrl": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          },
+          "tealButton": {
+            "variation": "tealButton",
+            "name": "Teal button",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "linkTitle": "syndicate real-time applications",
+              "linkUrl": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          },
+          "purpleButton": {
+            "variation": "purpleButton",
+            "name": "Purple Button",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "linkTitle": "repurpose real-time eyeballs",
+              "linkUrl": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "width": 1168,
+            "height": 54
+          },
+          "redButton": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Button/redButton/preview.png",
+            "width": 1168,
+            "height": 54
+          },
+          "yellowButton": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Button/yellowButton/preview.png",
+            "width": 1168,
+            "height": 54
+          },
+          "tealButton": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Button/tealButton/preview.png",
+            "width": 1168,
+            "height": 54
+          },
+          "purpleButton": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Button/purpleButton/preview.png",
+            "width": 1168,
+            "height": 54
+          }
+        }
+      },
+      "footer": {
+        "library": "slices",
+        "id": "footer",
+        "name": "Footer",
+        "description": "Footer",
+        "model": {
+          "id": "footer",
+          "type": "SharedSlice",
+          "name": "Footer",
+          "description": "Footer",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Footer",
+              "primary": {},
+              "items": {
+                "linkTitle": {
+                  "config": {
+                    "label": "linkTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "linkUrl": {
+                  "config": {
+                    "label": "linkUrl",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "footer",
+            "items": [
+              {
+                "linkTitle": "revolutionize mission-critical functionalities",
+                "linkUrl": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "linkTitle": "embrace real-time users",
+                "linkUrl": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "linkTitle": "unleash virtual e-markets",
+                "linkUrl": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "linkTitle": "reintermediate best-of-breed synergies",
+                "linkUrl": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Footer/default-slice/preview.png",
+            "width": 1168,
+            "height": 115
+          }
+        }
+      },
+      "header": {
+        "library": "slices",
+        "id": "header",
+        "name": "Header",
+        "description": "Header",
+        "model": {
+          "id": "header",
+          "type": "SharedSlice",
+          "name": "Header",
+          "description": "Header",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Header",
+              "primary": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "logo": {
+                  "config": {
+                    "label": "logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "header",
+            "items": [],
+            "primary": {
+              "title": "scale mission-critical deliverables",
+              "logo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/andrew/c3/creative/websites/myc3/.slicemachine/assets/slices/Header/default-slice/preview.png",
+            "width": 1168,
+            "height": 272
+          }
+        }
+      }
+    }
+  }
+}
