@@ -6,7 +6,7 @@ import resolver from "../sm-resolver.js";
 
 const Page = (props) => {
   return (
-    <div className="bg-gray-50 dark:bg-purple-900 w-screen min-h-screen absolute pb-4 dark:text-grayscale-50">
+    <div className="absolute w-screen min-h-screen pb-4 bg-gray-50">
       <SliceZone {...props} resolver={resolver} />
     </div>
   );

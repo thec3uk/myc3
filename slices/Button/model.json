@@ -26,110 +26,34 @@
             "allowTargetBlank": false
           },
           "type": "Link"
-        }
-      },
-      "items": {}
-    },
-    {
-      "id": "redButton",
-      "name": "Red button",
-      "docURL": "...",
-      "version": "sktwi1xtmkfgx8626",
-      "description": "Button",
-      "primary": {
-        "linkTitle": {
-          "config": {
-            "label": "linkTitle",
-            "placeholder": "Click me...!"
-          },
-          "type": "Text"
         },
-        "linkUrl": {
+        "size": {
           "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": null,
-            "allowTargetBlank": false
+            "label": "Size",
+            "placeholder": "",
+            "options": [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl"
+            ],
+            "default_value": "xs"
           },
-          "type": "Link"
-        }
-      },
-      "items": {}
-    },
-    {
-      "id": "yellowButton",
-      "name": "Yellow button",
-      "docURL": "...",
-      "version": "sktwi1xtmkfgx8626",
-      "description": "Button",
-      "primary": {
-        "linkTitle": {
-          "config": {
-            "label": "linkTitle",
-            "placeholder": "Click me...!"
-          },
-          "type": "Text"
+          "type": "Select"
         },
-        "linkUrl": {
+        "alignment": {
           "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": null,
-            "allowTargetBlank": false
+            "label": "Alignment",
+            "placeholder": "",
+            "options": [
+              "full",
+              "left",
+              "center",
+              "right"
+            ]
           },
-          "type": "Link"
-        }
-      },
-      "items": {}
-    },
-    {
-      "id": "tealButton",
-      "name": "Teal button",
-      "docURL": "...",
-      "version": "sktwi1xtmkfgx8626",
-      "description": "Button",
-      "primary": {
-        "linkTitle": {
-          "config": {
-            "label": "linkTitle",
-            "placeholder": "Click me...!"
-          },
-          "type": "Text"
-        },
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": null,
-            "allowTargetBlank": false
-          },
-          "type": "Link"
-        }
-      },
-      "items": {}
-    },
-    {
-      "id": "purpleButton",
-      "name": "Purple Button",
-      "docURL": "...",
-      "version": "sktwi1xtmkfgx8626",
-      "description": "Button",
-      "primary": {
-        "linkTitle": {
-          "config": {
-            "label": "linkTitle",
-            "placeholder": "Click me...!"
-          },
-          "type": "Text"
-        },
-        "linkUrl": {
-          "config": {
-            "label": "linkUrl",
-            "placeholder": "A url to somewhere else!",
-            "select": null,
-            "allowTargetBlank": false
-          },
-          "type": "Link"
+          "type": "Select"
         }
       },
       "items": {}

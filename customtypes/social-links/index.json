@@ -1,0 +1,34 @@
+{
+  "id": "social-links",
+  "label": "Social Links",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "instagramUrl": {
+        "config": {
+          "label": "Instagram Url",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "facebookUrl": {
+        "config": {
+          "label": "Facebook Url",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "youtubeUrl": {
+        "config": {
+          "label": "Youtube Url",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      }
+    }
+  }
+}

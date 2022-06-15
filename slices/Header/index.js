@@ -13,10 +13,9 @@ const Header = ({ slice }) => {
             width={slice.primary.logo.dimensions.width}
             height={slice.primary.logo.dimensions.height}
             loader={() => slice.primary.logo.url}
-            className="filter dark:brightness-0 dark:invert object-contain max-w-sm
-            "
+            className="filter object-contain max-w-sm" // dark:brightness-0 dark:invert
           />
-          <h1 className="text-4xl md:text-6xl font-title font-bold text-gray-900 dark:text-gray-50">
+          <h1 className="text-4xl md:text-6xl font-title font-bold text-gray-900">
             {slice.primary.title}
           </h1>
         </a>

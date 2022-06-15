@@ -1,0 +1,43 @@
+{
+  "id": "media",
+  "type": "SharedSlice",
+  "name": "Media",
+  "description": "Media",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Media",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Media",
+      "primary": {
+        "video": {
+          "config": {
+            "label": "Video",
+            "placeholder": ""
+          },
+          "type": "Embed"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "link",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Facilitate ubiquitous content",
+          "spans": []
+        }
+      ],
+      "url": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      }
+    }
+  }
+]

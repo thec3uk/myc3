@@ -5,11 +5,13 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "linkTitle": "expedite 24/7 users",
+      "linkTitle": "matrix holistic partnerships",
       "linkUrl": {
         "link_type": "Web",
         "url": "https://slicemachine.dev"
-      }
+      },
+      "size": "xs",
+      "alignment": "left"
     }
   },
   {
@@ -18,11 +20,13 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "linkTitle": "exploit seamless platforms",
+      "linkTitle": "expedite cutting-edge e-tailers",
       "linkUrl": {
         "link_type": "Web",
         "url": "http://google.com"
-      }
+      },
+      "size": "xs",
+      "alignment": "full"
     }
   },
   {
@@ -31,11 +35,13 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "linkTitle": "reinvent enterprise convergence",
+      "linkTitle": "aggregate value-added users",
       "linkUrl": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
-      }
+        "url": "http://google.com"
+      },
+      "size": "md",
+      "alignment": "full"
     }
   },
   {
@@ -44,11 +50,13 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "linkTitle": "syndicate real-time applications",
+      "linkTitle": "visualize e-business markets",
       "linkUrl": {
         "link_type": "Web",
-        "url": "https://prismic.io"
-      }
+        "url": "http://google.com"
+      },
+      "size": "xs",
+      "alignment": "center"
     }
   },
   {
@@ -57,11 +65,13 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "linkTitle": "repurpose real-time eyeballs",
+      "linkTitle": "productize sexy architectures",
       "linkUrl": {
         "link_type": "Web",
         "url": "http://google.com"
-      }
+      },
+      "size": "lg",
+      "alignment": "full"
     }
   }
 ]

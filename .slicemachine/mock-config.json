@@ -1,10 +1,104 @@
 {
   "slices": {
     "Logo": {},
-    "Button": {}
+    "Button": {
+      "default-slice": {
+        "primary": {
+          "size": {
+            "content": "full"
+          }
+        }
+      }
+    },
+    "Text": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Link": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Faqs": {
+      "default": {
+        "items": {
+          "answer": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Media": {
+      "default": {
+        "primary": {}
+      },
+      "video": {
+        "primary": {}
+      }
+    },
+    "Card": {
+      "default": {
+        "primary": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "faqCard": {
+        "primary": {}
+      },
+      "titleCard": {
+        "primary": {}
+      },
+      "imageCard": {
+        "primary": {}
+      },
+      "textCard": {
+        "primary": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "newsletterSlice": {
+        "primary": {}
+      }
+    },
+    "Header": {
+      "heroWithFullBleedImage": {
+        "primary": {}
+      },
+      "textOnlyHero": {
+        "primary": {},
+        "items": {}
+      },
+      "heroWithCustomComponent": {
+        "primary": {}
+      }
+    }
   },
   "_cts": {
     "page": {},
-    "redirect": {}
+    "redirect": {},
+    "social-links": {},
+    "quick-links": {}
   }
 }

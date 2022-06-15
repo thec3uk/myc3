@@ -1,0 +1,19 @@
+{
+  "id": "1d449760-8025-4373-b70d-25b833f60858",
+  "uid": "rem-vel-qui",
+  "type": "social-links",
+  "data": {
+    "instagramUrl": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    },
+    "facebookUrl": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "youtubeUrl": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

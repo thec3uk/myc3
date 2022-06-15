@@ -28,6 +28,178 @@
         }
       },
       "items": {}
+    },
+    {
+      "id": "heroWithImage",
+      "name": "Hero with Image",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Header",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "leadParagraph": {
+          "config": {
+            "label": "Lead Paragraph",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "callout": {
+          "config": {
+            "label": "Callout",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "backgroundImage": {
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "isFullBleed": {
+          "config": {
+            "label": "Is Full Bleed",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "linkTitle": {
+          "config": {
+            "label": "Link Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "Link Url",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    },
+    {
+      "id": "textOnlyHero",
+      "name": "Text Only Hero",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Header",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "leadParagraph": {
+          "config": {
+            "label": "Lead Paragraph",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "callout": {
+          "config": {
+            "label": "Callout",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "alignment": {
+          "config": {
+            "label": "Alignment",
+            "placeholder": "",
+            "options": [
+              "left",
+              "center",
+              "right"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "heroWithCustomComponent",
+      "name": "Hero with Custom Component",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Header",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "leadParagraph": {
+          "config": {
+            "label": "Lead Paragraph",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "callout": {
+          "config": {
+            "label": "Callout",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "componentName": {
+          "config": {
+            "label": "Component Name",
+            "placeholder": "",
+            "options": [
+              "carousel",
+              "map",
+              "contact_form"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "linkTitle": {
+          "config": {
+            "label": "Link Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "Link Url",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
     }
   ]
 }
