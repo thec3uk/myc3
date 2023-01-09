@@ -1,31 +1,27 @@
-import React from 'react'
-import { RichText } from 'prismic-reactjs'
+import React from "react";
+import { RichText } from "prismic-reactjs";
 
-const Text = ({ slice }) => (
-  <section>
-    <span className="title">
-      {
-        slice.primary.title ?
-        <RichText render={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    </span>
-    {
-      slice.primary.description ?
-      <RichText render={slice.primary.description}/>
-      : <p>start by editing this slice from inside Slice Machine!</p>
-    }
-    <style jsx>{`
-        section {
-          max-width: 600px;
-          margin: 4em auto;
-          text-align: center;
-        }
-        .title {
-          color: #8592e0;
-        }
-    `}</style>
-  </section>
-)
+const Text = ({ slice }) => {
+  console.log(slice);
+  const title_alignment = {
+    left: "text-center md:text-left",
+    center: "text-center md:text-center",
+    right: "text-center md:text-right",
+  };
+  return (
+    <section className="grid items-center justify-center grid-cols-1 my-6 md:grid-cols-4">
+      <div className="mx-auto md:col-span-2 md:col-start-2">
+        <div
+          className={`${
+            slice.title_alignment ? title_alignment[slice.title_alignment] : ""
+          } text-lg`}
+        >
+          {slice.primary.title && <RichText render={slice.primary.title} />}
+        </div>
+        {slice.primary.content && <RichText render={slice.primary.content} />}
+      </div>
+    </section>
+  );
+};
 
-export default Text
+export default Text;

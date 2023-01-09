@@ -91,7 +91,34 @@
         "items": {}
       },
       "heroWithCustomComponent": {
-        "primary": {}
+        "primary": {
+          "leadParagraph": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "heroWithVideo": {
+        "primary": {
+          "leadParagraph": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "heroWithImage": {
+        "primary": {
+          "leadParagraph": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     }
   },

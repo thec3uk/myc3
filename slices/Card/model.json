@@ -53,7 +53,8 @@
           "config": {
             "label": "Cta Link",
             "placeholder": "",
-            "allowTargetBlank": false
+            "allowTargetBlank": false,
+            "select": null
           },
           "type": "Link"
         },
@@ -72,7 +73,8 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "faqCard",
@@ -136,7 +138,8 @@
           },
           "type": "StructuredText"
         }
-      }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "textCard",
@@ -187,7 +190,8 @@
           "config": {
             "label": "Cta Link",
             "placeholder": "",
-            "allowTargetBlank": false
+            "allowTargetBlank": false,
+            "select": null
           },
           "type": "Link"
         },
@@ -206,7 +210,8 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "titleCard",
@@ -248,7 +253,8 @@
           "config": {
             "label": "Cta Link",
             "placeholder": "",
-            "allowTargetBlank": false
+            "allowTargetBlank": false,
+            "select": null
           },
           "type": "Link"
         },
@@ -267,7 +273,8 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "imageCard",
@@ -302,7 +309,8 @@
           "config": {
             "label": "Cta Link",
             "placeholder": "",
-            "allowTargetBlank": false
+            "allowTargetBlank": false,
+            "select": null
           },
           "type": "Link"
         },
@@ -311,17 +319,15 @@
             "label": "Colour",
             "placeholder": "",
             "options": [
-              "red",
-              "yellow",
               "transparent",
-              "white",
-              "black"
+              "transparentBlack"
             ]
           },
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "newsletterSlice",
@@ -383,7 +389,8 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }

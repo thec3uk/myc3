@@ -1,16 +1,17 @@
 [
   {
     "variation": "default",
-    "name": "Default",
-    "slice_type": "card",
-    "items": [],
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
     "primary": {
-      "subtitle": "leverage killer systems",
-      "title": "whiteboard B2B partnerships",
+      "subtitle": "wait",
+      "title": "map",
       "content": [
         {
           "type": "paragraph",
-          "text": "Fugiat quis magna occaecat ea esse anim ad cillum id fugiat magna amet eu ut. Excepteur ipsum adipisicing enim labore elit non sint occaecat quis. Officia qui mollit aliquip proident ad duis proident.",
+          "text": "Consectetur consequat ullamco eiusmod consectetur commodo commodo cupidatat.",
           "spans": []
         }
       ],
@@ -19,79 +20,61 @@
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6"
       },
-      "ctaTitle": "unleash cross-media paradigms",
+      "ctaTitle": "bank",
       "ctaLink": {
         "link_type": "Web",
         "url": "https://slicemachine.dev"
       },
-      "colour": "red"
-    }
+      "colour": "black"
+    },
+    "slice_type": "card"
   },
   {
     "variation": "faqCard",
-    "name": "Faq Card",
-    "slice_type": "card",
+    "version": "sktwi1xtmkfgx8626",
     "items": [
       {
-        "question": "target intuitive ROI",
+        "question": "aloud",
         "answer": [
           {
             "type": "paragraph",
-            "text": "Fugiat cupidatat adipisicing qui excepteur ad exercitation do.",
-            "spans": []
-          }
-        ]
-      },
-      {
-        "question": "strategize web-enabled convergence",
-        "answer": [
-          {
-            "type": "paragraph",
-            "text": "Nisi sunt pariatur et excepteur aliquip id labore reprehenderit eiusmod eiusmod. Labore dolore adipisicing esse nulla deserunt officia dolore laboris occaecat anim.",
-            "spans": []
-          }
-        ]
-      },
-      {
-        "question": "mesh integrated synergies",
-        "answer": [
-          {
-            "type": "paragraph",
-            "text": "Fugiat nulla pariatur est aute in culpa aliqua voluptate. Sint ex excepteur nostrud ea irure.",
+            "text": "Cillum commodo labore sint ex nulla.",
             "spans": []
           }
         ]
       }
     ],
     "primary": {
-      "subtitle": "transform magnetic interfaces",
-      "title": "drive distributed content",
+      "subtitle": "wagon",
+      "title": "attention",
       "content": [
         {
           "type": "paragraph",
-          "text": "Lorem et cillum dolore adipisicing enim ad nisi. Minim et consequat commodo anim excepteur proident quis laboris eu in anim velit. Do enim ut nisi ex excepteur nulla ullamco consectetur.",
+          "text": "Quis eiusmod velit ipsum deserunt dolor laboris adipisicing nostrud proident voluptate laborum consectetur eiusmod.",
           "spans": []
         }
       ],
-      "colour": "red"
-    }
+      "colour": "yellow"
+    },
+    "slice_type": "card"
   },
   {
     "variation": "textCard",
-    "name": "TextCard",
-    "slice_type": "card",
-    "items": [],
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
     "primary": {
-      "subtitle": "deploy best-of-breed action-items",
-      "title": "enhance value-added ROI",
+      "subtitle": "world",
+      "title": "skill",
       "content": [
         {
           "type": "paragraph",
-          "text": "Exercitation dolor non incididunt qui. Occaecat aliquip culpa consequat id irure amet voluptate fugiat velit minim consequat ex.",
+          "text": "Et ex anim ea commodo mollit voluptate aute laboris proident cupidatat occaecat laborum aliqua laboris minim.",
           "spans": []
         }
       ],
@@ -100,79 +83,85 @@
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8"
       },
-      "ctaTitle": "embrace enterprise initiatives",
+      "ctaTitle": "bend",
       "ctaLink": {
         "link_type": "Web",
         "url": "https://prismic.io"
       },
-      "colour": "red"
-    }
+      "colour": "yellow"
+    },
+    "slice_type": "card"
   },
   {
     "variation": "titleCard",
-    "name": "Title Card",
-    "slice_type": "card",
-    "items": [],
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
     "primary": {
-      "subtitle": "aggregate viral niches",
-      "title": "architect web-enabled experiences",
+      "subtitle": "vast",
+      "title": "given",
       "image": {
         "dimensions": {
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88"
       },
-      "ctaTitle": "target bleeding-edge experiences",
+      "ctaTitle": "habit",
       "ctaLink": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
+        "url": "http://google.com"
       },
-      "colour": "black"
-    }
+      "colour": "white"
+    },
+    "slice_type": "card"
   },
   {
     "variation": "imageCard",
-    "name": "ImageCard",
-    "slice_type": "card",
-    "items": [],
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
     "primary": {
-      "subtitle": "transition web-enabled convergence",
-      "title": "leverage sticky communities",
+      "subtitle": "old",
+      "title": "almost",
       "image": {
         "dimensions": {
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055"
       },
       "ctaLink": {
         "link_type": "Web",
         "url": "https://slicemachine.dev"
       },
-      "colour": "white"
-    }
+      "colour": "transparent"
+    },
+    "slice_type": "card"
   },
   {
     "variation": "newsletterSlice",
-    "name": "Newsletter Slice",
-    "slice_type": "card",
-    "items": [],
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
     "primary": {
-      "subtitle": "generate scalable functionalities",
-      "title": "unleash value-added systems",
+      "subtitle": "rate",
+      "title": "diameter",
       "content": [
         {
           "type": "paragraph",
-          "text": "Commodo consequat commodo tempor. Aute est mollit veniam sit cillum officia.",
+          "text": "Consequat anim irure dolor velit laborum aliqua mollit aliqua elit dolore ex magna occaecat. Exercitation tempor in ex fugiat nulla ex sit Lorem velit dolor eiusmod id.",
           "spans": []
         }
       ],
@@ -181,12 +170,13 @@
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a"
       },
-      "ctaTitle": "repurpose enterprise systems",
-      "colour": "transparent"
-    }
+      "ctaTitle": "strength",
+      "colour": "yellow"
+    },
+    "slice_type": "card"
   }
 ]
