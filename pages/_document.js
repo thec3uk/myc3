@@ -13,7 +13,16 @@ export default class extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          {process.env.NODE_ENV === "production" && (
+            <script
+              async
+              defer
+              data-website-id="231a1dee-01c4-422e-adbc-d253914fe38c"
+              src="https://analytics.myc3.life/umami.js"
+            ></script>
+          )}
+        </Head>
         <body>
           <Main />
           <NextScript />
