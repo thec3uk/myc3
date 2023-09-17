@@ -10,7 +10,7 @@ const Text = ({ slice }) => {
   };
   return (
     <section className="grid items-center justify-center grid-cols-1 my-6 md:grid-cols-4">
-      <div className="mx-auto md:col-span-2 md:col-start-2">
+      <div className="mx-auto md:col-span-2 md:col-start-2 prose">
         <div
           className={`${
             slice.title_alignment ? title_alignment[slice.title_alignment] : ""
