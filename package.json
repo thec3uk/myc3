@@ -44,6 +44,6 @@
     "shx": "^0.3.3",
     "slice-machine-ui": "0.7.1",
     "sm-commons": "^0.0.23",
-    "tailwindcss": "^2.2.17"
+    "tailwindcss": "3"
   }
 }
