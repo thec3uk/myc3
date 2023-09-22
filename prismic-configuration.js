@@ -48,7 +48,7 @@ export const Router = {
   },
 };
 
-export const Client = (req = null, options = {}) =>
+export const MyClient = (req = null, options = {}) =>
   Client(
     apiEndpoint,
     Object.assign({ routes: Router.routes }, options)

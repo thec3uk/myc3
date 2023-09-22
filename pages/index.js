@@ -1,4 +1,4 @@
-import { Client } from "../prismic-configuration";
+import { MyClient } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps } from "next-slicezone/hooks";
 
@@ -14,7 +14,7 @@ const Page = (props) => {
 
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
-  client: Client(),
+  client: MyClient(),
   type: "page",
   queryType: "repeat",
   apiParams: {

@@ -1,4 +1,4 @@
-import { Client } from "../prismic-configuration";
+import { MyClient } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 
@@ -42,7 +42,7 @@ export const getServerSideProps = async ({
       }
     ),
     type: "redirect",
-    client: Client(),
+    client: MyClient(),
   });
 
   if (
