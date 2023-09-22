@@ -49,7 +49,7 @@ export const Router = {
 };
 
 export const Client = (req = null, options = {}) =>
-  Prismic.client(
+  Prismic.Client(
     apiEndpoint,
     Object.assign({ routes: Router.routes }, options)
   );
