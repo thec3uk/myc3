@@ -66,7 +66,7 @@ export const getServerSideProps = async ({
       }
     ),
     type: "page",
-    client: Client(),
+    client: MyClient(),
   });
   if (page && page.tags.includes("domain:myc3.life")) {
     return {
