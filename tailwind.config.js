@@ -1,11 +1,10 @@
 module.exports = {
-  purge: [
+  content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./slices/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "media", // or 'media' or 'class'
-  mode: "jit",
   theme: {
     // Grayscale Design palette: https://grayscale.design/app?lums=92.72,85.96,73.80,58.88,39.22,25.38,15.15,11.44,5.71,2.32&palettes=%233e4545,%23f8c23d,%2300919F,%23f05356,%23202945&filters=0%7C0,0%7C0,0%7C0,0%7C0,0%7C0&names=gray,,,red,purple&labels=,,,,
     colors: {
