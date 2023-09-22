@@ -1,4 +1,4 @@
-import Prismic from "@prismicio/client";
+import {Client} from "@prismicio/client";
 import Link from "next/link";
 
 import smConfig from "./sm.json";
@@ -49,7 +49,7 @@ export const Router = {
 };
 
 export const Client = (req = null, options = {}) =>
-  Prismic.Client(
+  Client(
     apiEndpoint,
     Object.assign({ routes: Router.routes }, options)
   );
