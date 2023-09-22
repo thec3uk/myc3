@@ -49,7 +49,7 @@ export const Router = {
 };
 
 export const MyClient = (req = null, options = {}) =>
-  Client(
+  new Client(
     apiEndpoint,
     Object.assign({ routes: Router.routes }, options)
   );
