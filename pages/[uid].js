@@ -21,7 +21,14 @@ async function query({ queryType, apiParams, type, client }) {
       ? ["getByUID", [type, uid, restApiParams]]
       : ["getSingle", [type, restApiParams]];
 
-  return await client[caller[0]](...caller[1]);
+
+  try {
+    return await client[caller[0]](...caller[1]);
+  } catch (error) {
+    console.error(error)
+    return {tags:[]}
+  }
+
 }
 // COPY END
 
@@ -73,6 +80,7 @@ export const getServerSideProps = async ({
       props: { ...page, slices: page.data.body },
     };
   }
+  return {notFound: true,}
 };
 
 export default Page;

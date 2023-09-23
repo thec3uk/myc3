@@ -24,6 +24,7 @@
     "@netlify/plugin-nextjs": "^3.9.2",
     "@prismicio/client": "^6.7.3",
     "add": "^2.0.6",
+    "essential-slices": "^1.0.4",
     "js-cookie": "^2.2.1",
     "next": "^10.0.8",
     "next-slicezone": "^0.1.2",
