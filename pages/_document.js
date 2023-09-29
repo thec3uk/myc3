@@ -19,7 +19,7 @@ export default class extends Document {
               async
               defer
               data-website-id="231a1dee-01c4-422e-adbc-d253914fe38c"
-              src="https://analytics.myc3.life/umami.js"
+              src="https://analytics.myc3.life/script.js"
             ></script>
           )}
         </Head>
