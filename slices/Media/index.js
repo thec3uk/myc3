@@ -1,31 +1,24 @@
-import React from 'react'
-import { RichText } from 'prismic-reactjs'
+import * as React from 'react'
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import Image from 'next/image'
+import FullBleedMedia, {
+  fullScreenContainerClassNames,
+  autoHeightContainerClassNames,
+} from './fullbleed'
 
-const Media = ({ slice }) => (
-  <section>
-    <span className="title">
-      {
-        slice.primary.title ?
-        <RichText render={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    </span>
-    {
-      slice.primary.description ?
-      <RichText render={slice.primary.description}/>
-      : <p>start by editing this slice from inside Slice Machine!</p>
-    }
-    <style jsx>{`
-        section {
-          max-width: 600px;
-          margin: 4em auto;
-          text-align: center;
-        }
-        .title {
-          color: #8592e0;
-        }
-    `}</style>
-  </section>
-)
+const ImageMedia = ({
+  image,
+  alt,
+  fullheight,
+}) => {
+  const containerClasses = fullheight
+    ? fullScreenContainerClassNames
+    : autoHeightContainerClassNames
+  return (
+    <FullBleedMedia reducedPadding={!fullheight}>
+      <Image src={image} alt={alt} className={containerClasses} />
+    </FullBleedMedia>
+  )
+}
 
-export default Media
+export default ImageMedia
