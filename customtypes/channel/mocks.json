@@ -1,0 +1,76 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "guide"
+    },
+    "name": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "heading1",
+          "content": {
+            "text": "Anything"
+          }
+        }
+      ]
+    },
+    "description": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Aute veniam qui sint minim ullamco non veniam elit sunt ex. Aliqua aliqua et nulla reprehenderit eu cillum. Dolor ad labore excepteur aliquip reprehenderit eiusmod incididunt irure fugiat pariatur."
+          }
+        }
+      ]
+    },
+    "thumbnail": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+        "width": 3344,
+        "height": 2509
+      },
+      "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?rect=418%2C0%2C2509%2C2509&w=512&h=512",
+      "width": 512,
+      "height": 512,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 418,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "hero": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04",
+        "width": 4000,
+        "height": 4000
+      },
+      "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?rect=0%2C1219%2C4000%2C1563&w=1280&h=500",
+      "width": 1280,
+      "height": 500,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 1219
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "body": {
+      "__TYPE__": "SliceContentType",
+      "value": []
+    }
+  }
+]

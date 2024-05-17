@@ -309,7 +309,7 @@
           "config": {
             "label": "Cta Link",
             "placeholder": "",
-            "allowTargetBlank": false,
+            "allowTargetBlank": true,
             "select": null
           },
           "type": "Link"
@@ -332,6 +332,69 @@
     {
       "id": "newsletterSlice",
       "name": "Newsletter Slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Card",
+      "primary": {
+        "subtitle": {
+          "config": {
+            "label": "Subtitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "content": {
+          "config": {
+            "label": "Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,heading3"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "ctaTitle": {
+          "config": {
+            "label": "Cta Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "colour": {
+          "config": {
+            "label": "Colour",
+            "placeholder": "",
+            "options": [
+              "red",
+              "yellow",
+              "transparent",
+              "white",
+              "black"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "newsletterLocationSlice",
+      "name": "newsletter with locations",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
       "description": "Card",

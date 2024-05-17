@@ -1,0 +1,7 @@
+{
+  "apiEndpoint": "https://thec3.cdn.prismic.io/api/v2",
+  "repositoryName": "thec3",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

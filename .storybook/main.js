@@ -1,16 +1,23 @@
-const { getStoriesPaths } = require("slice-machine-ui/helpers/storybook");
-module.exports = {
-  stories: [...getStoriesPaths()],
-  addons: [
-    {
-      name: "@storybook/addon-postcss",
-      options: {
-        postcssLoaderOptions: {
-          // When using postCSS 8
-          implementation: require("postcss"),
-        },
-      },
-    },
-    "@storybook/addon-backgrounds",
+/** @type { import('@storybook/nextjs').StorybookConfig } */
+const config = {
+  stories: [
+    "../stories/**/*.mdx",
+    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+  addons: [
+    "@storybook/addon-onboarding",
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@chromatic-com/storybook",
+    "@storybook/addon-interactions",
+  ],
+  framework: {
+    name: "@storybook/nextjs",
+    options: {
+      url: false,
+      import: false
+    },
+  },
+  staticDirs: ["../public"],
 };
+export default config;

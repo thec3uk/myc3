@@ -1,0 +1,92 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "drew"
+    },
+    "title": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "heading1",
+          "content": {
+            "text": "Example"
+          }
+        }
+      ]
+    },
+    "description": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Pariatur proident dolore Lorem eu voluptate aliquip sunt laboris non. Lorem nulla cillum aliquip do do fugiat in cillum ex cillum. Occaecat nostrud qui voluptate reprehenderit deserunt commodo cillum voluptate excepteur reprehenderit anim eiusmod."
+          }
+        }
+      ]
+    },
+    "hero": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+        "width": 3958,
+        "height": 3958
+      },
+      "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?rect=0%2C1206%2C3958%2C1546&w=1280&h=500",
+      "width": 1280,
+      "height": 500,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 1206
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "thumbnail": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+        "width": 3024,
+        "height": 3778
+      },
+      "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?rect=0%2C377%2C3024%2C3024&w=512&h=512",
+      "width": 512,
+      "height": 512,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 377
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "linked_resources": {
+      "__TYPE__": "GroupContentType",
+      "value": [
+        {
+          "__TYPE__": "GroupItemContent",
+          "value": [
+            [
+              "resources",
+              {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "DocumentLink",
+                  "id": "mock_document_id"
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  }
+]

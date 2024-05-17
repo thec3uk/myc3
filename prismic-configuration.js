@@ -1,7 +1,7 @@
 import {Client} from "@prismicio/client";
 import Link from "next/link";
 
-import smConfig from "./sm.json";
+import smConfig from "./slicemachine.config.json";
 
 if (!smConfig.apiEndpoint) {
   console.warn(
@@ -33,7 +33,7 @@ export const customLink = (type, element, content, children, index) => (
     href={linkResolver(element.data)}
     as={linkResolver(element.data)}
   >
-    <a>{content}</a>
+    {content}
   </Link>
 );
 

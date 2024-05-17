@@ -9,7 +9,8 @@
         "config": {
           "label": "Instagram Url",
           "placeholder": "",
-          "allowTargetBlank": false
+          "allowTargetBlank": false,
+          "select": null
         },
         "type": "Link"
       },
@@ -17,7 +18,8 @@
         "config": {
           "label": "Facebook Url",
           "placeholder": "",
-          "allowTargetBlank": false
+          "allowTargetBlank": false,
+          "select": null
         },
         "type": "Link"
       },
@@ -25,9 +27,17 @@
         "config": {
           "label": "Youtube Url",
           "placeholder": "",
-          "allowTargetBlank": false
+          "allowTargetBlank": false,
+          "select": null
         },
         "type": "Link"
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
       }
     }
   }

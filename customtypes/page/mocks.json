@@ -1,0 +1,281 @@
+[
+  {
+    "body": {
+      "__TYPE__": "SliceContentType",
+      "value": [
+        {
+          "key": "button$4d073588-dcf1-4156-ac0a-24be1e93b311",
+          "name": "button",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default-slice",
+            "primary": {
+              "linkTitle": {
+                "__TYPE__": "FieldContent",
+                "value": "higher",
+                "type": "Text"
+              },
+              "linkUrl": {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "ExternalLink",
+                  "url": "http://google.com"
+                }
+              },
+              "size": {
+                "__TYPE__": "FieldContent",
+                "value": "xs",
+                "type": "Select"
+              },
+              "alignment": {
+                "__TYPE__": "FieldContent",
+                "value": "right",
+                "type": "Select"
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        },
+        {
+          "key": "header$505ea368-f439-4fb9-b52c-54d15168de8c",
+          "name": "header",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default-slice",
+            "primary": {
+              "title": {
+                "__TYPE__": "FieldContent",
+                "value": "mysterious",
+                "type": "Text"
+              },
+              "logo": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+                  "width": 4160,
+                  "height": 3120
+                },
+                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+                "width": 4160,
+                "height": 3120,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        },
+        {
+          "key": "footer$1a73df03-c333-4f9c-9539-ef398d5c7d89",
+          "name": "footer",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default-slice",
+            "primary": {},
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": [
+                  [
+                    "linkTitle",
+                    {
+                      "__TYPE__": "FieldContent",
+                      "value": "himself",
+                      "type": "Text"
+                    }
+                  ],
+                  [
+                    "linkUrl",
+                    {
+                      "__TYPE__": "LinkContent",
+                      "value": {
+                        "__TYPE__": "ExternalLink",
+                        "url": "https://prismic.io"
+                      }
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "media$e4559cd0-2f6b-4d73-bcd8-b82460b255f7",
+          "name": "media",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "image": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+                  "width": 3456,
+                  "height": 3456
+                },
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+                "width": 3456,
+                "height": 3456,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              },
+              "fullheight": {
+                "__TYPE__": "BooleanContent",
+                "value": true
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        },
+        {
+          "key": "card$d1281801-f44d-4e64-8656-844bf771f745",
+          "name": "card",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "subtitle": {
+                "__TYPE__": "FieldContent",
+                "value": "red",
+                "type": "Text"
+              },
+              "title": {
+                "__TYPE__": "FieldContent",
+                "value": "equator",
+                "type": "Text"
+              },
+              "content": {
+                "__TYPE__": "StructuredTextContent",
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "content": {
+                      "text": "Laborum aute labore sint in fugiat labore dolore minim ad ex aliqua Lorem nisi incididunt. Ullamco officia dolor consectetur dolor officia deserunt nulla qui."
+                    }
+                  }
+                ]
+              },
+              "image": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+                  "width": 3560,
+                  "height": 5340
+                },
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+                "width": 3560,
+                "height": 5340,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              },
+              "ctaTitle": {
+                "__TYPE__": "FieldContent",
+                "value": "said",
+                "type": "Text"
+              },
+              "ctaLink": {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "ExternalLink",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              "colour": {
+                "__TYPE__": "FieldContent",
+                "value": "black",
+                "type": "Select"
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "income"
+    },
+    "parent_page": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "DocumentLink",
+        "id": "mock_document_id"
+      }
+    },
+    "seo_title": {
+      "__TYPE__": "FieldContent",
+      "value": "breath",
+      "type": "Text"
+    },
+    "seo_description": {
+      "__TYPE__": "FieldContent",
+      "value": "important",
+      "type": "Text"
+    },
+    "seo_image": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+        "width": 3935,
+        "height": 5894
+      },
+      "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+      "width": 3935,
+      "height": 5894,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    }
+  }
+]

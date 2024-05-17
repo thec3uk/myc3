@@ -1,0 +1,32 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default-slice",
+    "primary": {},
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "linkTitle",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "equator",
+              "type": "Text"
+            }
+          ],
+          [
+            "linkUrl",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "title": {
+      "__TYPE__": "FieldContent",
+      "value": "copy",
+      "type": "Text"
+    },
+    "slices": {
+      "__TYPE__": "SliceContentType",
+      "value": [
+        {
+          "key": "link$02dd56e9-30c3-4510-b30e-a6ff4efe43b9",
+          "name": "link",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "title": {
+                "__TYPE__": "StructuredTextContent",
+                "value": [
+                  {
+                    "type": "heading1",
+                    "content": {
+                      "text": "Consider"
+                    }
+                  }
+                ]
+              },
+              "url": {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "ExternalLink",
+                  "url": "http://twitter.com"
+                }
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

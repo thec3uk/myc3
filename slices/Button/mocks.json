@@ -1,0 +1,36 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default-slice",
+    "primary": {
+      "linkTitle": {
+        "__TYPE__": "FieldContent",
+        "value": "diameter",
+        "type": "Text"
+      },
+      "linkUrl": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://twitter.com"
+        }
+      },
+      "size": {
+        "__TYPE__": "FieldContent",
+        "value": "full",
+        "type": "Select"
+      },
+      "alignment": {
+        "__TYPE__": "FieldContent",
+        "value": "center",
+        "type": "Select"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

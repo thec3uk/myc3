@@ -5,8 +5,15 @@ import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 
 const Page = (props) => {
+  const bgImage = props.data?.background_image?.url
+  let styles = {}
+  if (bgImage !== null) {
+    styles = {
+      backgroundImage: `url(${bgImage})`
+    }
+  }
   return (
-    <div className="absolute w-screen min-h-screen pb-4 bg-gray-50">
+    <div className="absolute w-screen min-h-screen pb-4 bg-gray-50" style={styles}>
       <SliceZone {...props} resolver={resolver} />
     </div>
   );

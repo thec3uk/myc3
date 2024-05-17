@@ -1,0 +1,25 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "content": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Elit laboris eu in ex duis officia proident officia dolore. Id et laboris nisi anim cillum anim labore reprehenderit enim. Minim sint ipsum commodo et ea qui eiusmod laborum voluptate qui consequat irure officia et consectetur."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]
