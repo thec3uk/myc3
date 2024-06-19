@@ -13,7 +13,7 @@ const Header = ({ slice }) => {
             width={slice.primary.logo.dimensions.width}
             height={slice.primary.logo.dimensions.height}
             loader={() => slice.primary.logo.url}
-            className="filter object-contain md:max-w-32 max-w-20" // dark:brightness-0 dark:invert
+            className="filter object-contain md:max-w-sm max-w-20" // dark:brightness-0 dark:invert
           />
           <h1 className="text-4xl md:text-6xl font-title font-bold text-gray-900">
             {slice.primary.title}
