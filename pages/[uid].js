@@ -7,7 +7,7 @@ import resolver from "../sm-resolver.js";
 const Page = (props) => {
   const bgImage = props.data?.background_image?.url;
   let styles = {};
-  if (bgImage !== null) {
+  if (bgImage) {
     styles = {
       backgroundImage: `url(${bgImage})`,
     };
@@ -25,21 +25,19 @@ const Page = (props) => {
 const multiQueryTypes = ["repeat", "repeatable", "multi"];
 
 async function query({ queryType, apiParams, type, client }) {
-  console.log(apiParams);
   const { uid, ...restApiParams } = apiParams;
 
   const caller =
     multiQueryTypes.indexOf(queryType) !== -1
       ? ["getByUID", [type, uid, restApiParams]]
       : ["getSingle", [type, restApiParams]];
-
-  console.log(caller);
   try {
     return await client[caller[0]](...caller[1]);
   } catch (error) {
-    console.log("??????????");
-    console.error(error);
-    console.log("??????????");
+    console.log(error.message);
+    if (error.message !== "No documents were returned") {
+      console.error(`[query] Unexpected error fetching ${type}/${uid}:`, error);
+    }
     return { tags: [] };
   }
 }
@@ -88,9 +86,6 @@ export const getServerSideProps = async ({
     type: "page",
     client: MyClient(),
   });
-  console.log("!!!!!!!!!");
-  console.log(page);
-  console.log("!!!!!!!!!");
   if (page && page.tags.includes("domain:myc3.life")) {
     return {
       props: { ...page, slices: page.data.body },
