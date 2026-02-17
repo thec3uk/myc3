@@ -26,15 +26,15 @@ export interface AcademyPageDocumentDataCtasItem {
    * - **API ID Path**: academy_page.ctas[].link
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link: prismic.LinkField;
+  link: prismic.LinkField<string, string, unknown, prismic.FieldState, never>;
 }
 
 /**
- * Primary content in *Academy Page → Slice zone → Short Text with Image → Primary*
+ * Primary content in *Academy Page → Slice Zone → Short Text with Image → Primary*
  */
 export interface AcademyPageDocumentDataBodyQuoteSlicePrimary {
   /**
-   * Hex 1 field in *Academy Page → Slice zone → Short Text with Image → Primary*
+   * Hex 1 field in *Academy Page → Slice Zone → Short Text with Image → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Hex 1 Content
@@ -44,7 +44,7 @@ export interface AcademyPageDocumentDataBodyQuoteSlicePrimary {
   hex_1: prismic.RichTextField;
 
   /**
-   * Hex 2 field in *Academy Page → Slice zone → Short Text with Image → Primary*
+   * Hex 2 field in *Academy Page → Slice Zone → Short Text with Image → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Hex 2 Content
@@ -55,7 +55,7 @@ export interface AcademyPageDocumentDataBodyQuoteSlicePrimary {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyQuoteSlice = prismic.Slice<
   "quote",
@@ -64,11 +64,11 @@ export type AcademyPageDocumentDataBodyQuoteSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Study Options → Primary*
+ * Primary content in *Academy Page → Slice Zone → Study Options → Primary*
  */
 export interface AcademyPageDocumentDataBody2ColumnTextSlicePrimary {
   /**
-   * Title field in *Academy Page → Slice zone → Study Options → Primary*
+   * Title field in *Academy Page → Slice Zone → Study Options → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -79,11 +79,11 @@ export interface AcademyPageDocumentDataBody2ColumnTextSlicePrimary {
 }
 
 /**
- * Item content in *Academy Page → Slice zone → Study Options → Items*
+ * Item content in *Academy Page → Slice Zone → Study Options → Items*
  */
 export interface AcademyPageDocumentDataBody2ColumnTextSliceItem {
   /**
-   * Title field in *Academy Page → Slice zone → Study Options → Items*
+   * Title field in *Academy Page → Slice Zone → Study Options → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -93,7 +93,7 @@ export interface AcademyPageDocumentDataBody2ColumnTextSliceItem {
   title: prismic.KeyTextField;
 
   /**
-   * Sub Title field in *Academy Page → Slice zone → Study Options → Items*
+   * Sub Title field in *Academy Page → Slice Zone → Study Options → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -103,7 +103,7 @@ export interface AcademyPageDocumentDataBody2ColumnTextSliceItem {
   sub_title: prismic.KeyTextField;
 
   /**
-   * Content field in *Academy Page → Slice zone → Study Options → Items*
+   * Content field in *Academy Page → Slice Zone → Study Options → Items*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
@@ -114,7 +114,7 @@ export interface AcademyPageDocumentDataBody2ColumnTextSliceItem {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBody2ColumnTextSlice = prismic.Slice<
   "2_column_text",
@@ -123,11 +123,11 @@ export type AcademyPageDocumentDataBody2ColumnTextSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Text with Image → Primary*
+ * Primary content in *Academy Page → Slice Zone → Text with Image → Primary*
  */
 export interface AcademyPageDocumentDataBodyTextSlicePrimary {
   /**
-   * text field in *Academy Page → Slice zone → Text with Image → Primary*
+   * text field in *Academy Page → Slice Zone → Text with Image → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Your content here
@@ -137,7 +137,7 @@ export interface AcademyPageDocumentDataBodyTextSlicePrimary {
   text: prismic.RichTextField;
 
   /**
-   * Background Text Colour field in *Academy Page → Slice zone → Text with Image → Primary*
+   * Background Text Colour field in *Academy Page → Slice Zone → Text with Image → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -147,7 +147,7 @@ export interface AcademyPageDocumentDataBodyTextSlicePrimary {
   background_text_colour: prismic.KeyTextField;
 
   /**
-   * Image field in *Academy Page → Slice zone → Text with Image → Primary*
+   * Image field in *Academy Page → Slice Zone → Text with Image → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -158,7 +158,7 @@ export interface AcademyPageDocumentDataBodyTextSlicePrimary {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyTextSlice = prismic.Slice<
   "text",
@@ -167,11 +167,11 @@ export type AcademyPageDocumentDataBodyTextSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Hex Image with Text → Primary*
+ * Primary content in *Academy Page → Slice Zone → Hex Image with Text → Primary*
  */
 export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
   /**
-   * title field in *Academy Page → Slice zone → Hex Image with Text → Primary*
+   * title field in *Academy Page → Slice Zone → Hex Image with Text → Primary*
    *
    * - **Field Type**: Title
    * - **Placeholder**: *None*
@@ -181,7 +181,7 @@ export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
   title: prismic.TitleField;
 
   /**
-   * Text field in *Academy Page → Slice zone → Hex Image with Text → Primary*
+   * Text field in *Academy Page → Slice Zone → Hex Image with Text → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
@@ -191,7 +191,7 @@ export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
   text: prismic.RichTextField;
 
   /**
-   * Background Colour field in *Academy Page → Slice zone → Hex Image with Text → Primary*
+   * Background Colour field in *Academy Page → Slice Zone → Hex Image with Text → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -201,7 +201,7 @@ export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
   background_colour: prismic.KeyTextField;
 
   /**
-   * Image Reversed field in *Academy Page → Slice zone → Hex Image with Text → Primary*
+   * Image Reversed field in *Academy Page → Slice Zone → Hex Image with Text → Primary*
    *
    * - **Field Type**: Boolean
    * - **Placeholder**: *None*
@@ -212,7 +212,7 @@ export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
   image_reversed: prismic.BooleanField;
 
   /**
-   * Image field in *Academy Page → Slice zone → Hex Image with Text → Primary*
+   * Image field in *Academy Page → Slice Zone → Hex Image with Text → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -223,7 +223,7 @@ export interface AcademyPageDocumentDataBodyHexImageWithTextSlicePrimary {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyHexImageWithTextSlice = prismic.Slice<
   "hex_image_with_text",
@@ -232,11 +232,11 @@ export type AcademyPageDocumentDataBodyHexImageWithTextSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Testimonials → Primary*
+ * Primary content in *Academy Page → Slice Zone → Testimonials → Primary*
  */
 export interface AcademyPageDocumentDataBodyTeamSlicePrimary {
   /**
-   * Team Section field in *Academy Page → Slice zone → Testimonials → Primary*
+   * Team Section field in *Academy Page → Slice Zone → Testimonials → Primary*
    *
    * - **Field Type**: Title
    * - **Placeholder**: Management
@@ -247,11 +247,11 @@ export interface AcademyPageDocumentDataBodyTeamSlicePrimary {
 }
 
 /**
- * Item content in *Academy Page → Slice zone → Testimonials → Items*
+ * Item content in *Academy Page → Slice Zone → Testimonials → Items*
  */
 export interface AcademyPageDocumentDataBodyTeamSliceItem {
   /**
-   * First and LastName field in *Academy Page → Slice zone → Testimonials → Items*
+   * First and LastName field in *Academy Page → Slice Zone → Testimonials → Items*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: John Doe
@@ -261,7 +261,7 @@ export interface AcademyPageDocumentDataBodyTeamSliceItem {
   first_and_lastname: prismic.RichTextField;
 
   /**
-   * Position field in *Academy Page → Slice zone → Testimonials → Items*
+   * Position field in *Academy Page → Slice Zone → Testimonials → Items*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Design director
@@ -271,7 +271,7 @@ export interface AcademyPageDocumentDataBodyTeamSliceItem {
   position: prismic.RichTextField;
 
   /**
-   * Is Reversed field in *Academy Page → Slice zone → Testimonials → Items*
+   * Is Reversed field in *Academy Page → Slice Zone → Testimonials → Items*
    *
    * - **Field Type**: Boolean
    * - **Placeholder**: *None*
@@ -282,7 +282,7 @@ export interface AcademyPageDocumentDataBodyTeamSliceItem {
   is_reversed: prismic.BooleanField;
 
   /**
-   * Portrait field in *Academy Page → Slice zone → Testimonials → Items*
+   * Portrait field in *Academy Page → Slice Zone → Testimonials → Items*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -293,7 +293,7 @@ export interface AcademyPageDocumentDataBodyTeamSliceItem {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyTeamSlice = prismic.Slice<
   "team",
@@ -302,11 +302,11 @@ export type AcademyPageDocumentDataBodyTeamSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Text with CTAs → Primary*
+ * Primary content in *Academy Page → Slice Zone → Text with CTAs → Primary*
  */
 export interface AcademyPageDocumentDataBodyTextWithCtasSlicePrimary {
   /**
-   * text field in *Academy Page → Slice zone → Text with CTAs → Primary*
+   * text field in *Academy Page → Slice Zone → Text with CTAs → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
@@ -316,7 +316,7 @@ export interface AcademyPageDocumentDataBodyTextWithCtasSlicePrimary {
   text: prismic.RichTextField;
 
   /**
-   * Background Image field in *Academy Page → Slice zone → Text with CTAs → Primary*
+   * Background Image field in *Academy Page → Slice Zone → Text with CTAs → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -327,11 +327,11 @@ export interface AcademyPageDocumentDataBodyTextWithCtasSlicePrimary {
 }
 
 /**
- * Item content in *Academy Page → Slice zone → Text with CTAs → Items*
+ * Item content in *Academy Page → Slice Zone → Text with CTAs → Items*
  */
 export interface AcademyPageDocumentDataBodyTextWithCtasSliceItem {
   /**
-   * CTA Text field in *Academy Page → Slice zone → Text with CTAs → Items*
+   * CTA Text field in *Academy Page → Slice Zone → Text with CTAs → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -341,18 +341,24 @@ export interface AcademyPageDocumentDataBodyTextWithCtasSliceItem {
   cta_text: prismic.KeyTextField;
 
   /**
-   * CTA Link field in *Academy Page → Slice zone → Text with CTAs → Items*
+   * CTA Link field in *Academy Page → Slice Zone → Text with CTAs → Items*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
    * - **API ID Path**: academy_page.body[].text_with_ctas.items.cta_link
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  cta_link: prismic.LinkField;
+  cta_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyTextWithCtasSlice = prismic.Slice<
   "text_with_ctas",
@@ -361,11 +367,11 @@ export type AcademyPageDocumentDataBodyTextWithCtasSlice = prismic.Slice<
 >;
 
 /**
- * Primary content in *Academy Page → Slice zone → Text → Primary*
+ * Primary content in *Academy Page → Slice Zone → Text → Primary*
  */
 export interface AcademyPageDocumentDataBodyText1SlicePrimary {
   /**
-   * text field in *Academy Page → Slice zone → Text → Primary*
+   * text field in *Academy Page → Slice Zone → Text → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Your content here
@@ -376,7 +382,7 @@ export interface AcademyPageDocumentDataBodyText1SlicePrimary {
 }
 
 /**
- * Slice for *Academy Page → Slice zone*
+ * Slice for *Academy Page → Slice Zone*
  */
 export type AcademyPageDocumentDataBodyText1Slice = prismic.Slice<
   "text1",
@@ -442,7 +448,7 @@ interface AcademyPageDocumentData {
   ctas: prismic.GroupField<Simplify<AcademyPageDocumentDataCtasItem>>;
 
   /**
-   * Slice zone field in *Academy Page*
+   * Slice Zone field in *Academy Page*
    *
    * - **Field Type**: Slice Zone
    * - **Placeholder**: *None*
@@ -470,42 +476,60 @@ export type AcademyPageDocument<Lang extends string = string> =
   >;
 
 /**
- * Primary content in *Channel → Slice zone → Social Media Links → Primary*
+ * Primary content in *Channel → Slice Zone → Social Media Links → Primary*
  */
 export interface ChannelDocumentDataBodySocialMediaLinksSlicePrimary {
   /**
-   * Facebook field in *Channel → Slice zone → Social Media Links → Primary*
+   * Facebook field in *Channel → Slice Zone → Social Media Links → Primary*
    *
    * - **Field Type**: Link
    * - **Placeholder**: Link to facebook page
    * - **API ID Path**: channel.body[].social_media_links.primary.facebook
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  facebook: prismic.LinkField;
+  facebook: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
-   * Instagram field in *Channel → Slice zone → Social Media Links → Primary*
+   * Instagram field in *Channel → Slice Zone → Social Media Links → Primary*
    *
    * - **Field Type**: Link
    * - **Placeholder**: Link to Instagram
    * - **API ID Path**: channel.body[].social_media_links.primary.instagram
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  instagram: prismic.LinkField;
+  instagram: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
-   * YouTube field in *Channel → Slice zone → Social Media Links → Primary*
+   * YouTube field in *Channel → Slice Zone → Social Media Links → Primary*
    *
    * - **Field Type**: Link
    * - **Placeholder**: Link to YouTube
    * - **API ID Path**: channel.body[].social_media_links.primary.youtube
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  youtube: prismic.LinkField;
+  youtube: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
- * Slice for *Channel → Slice zone*
+ * Slice for *Channel → Slice Zone*
  */
 export type ChannelDocumentDataBodySocialMediaLinksSlice = prismic.Slice<
   "social_media_links",
@@ -565,7 +589,7 @@ interface ChannelDocumentData {
   hero: prismic.ImageField<never>;
 
   /**
-   * Slice zone field in *Channel*
+   * Slice Zone field in *Channel*
    *
    * - **Field Type**: Slice Zone
    * - **Placeholder**: *None*
@@ -616,6 +640,8 @@ export interface ContactFormDocumentDataCategoryItem {
    */
   email_recipient: prismic.KeyTextField;
 }
+
+type ContactFormDocumentDataSlicesSlice = never;
 
 /**
  * Content for Contact Form Configuration documents
@@ -719,6 +745,17 @@ interface ContactFormDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   thank_you_message: prismic.RichTextField;
+
+  /**
+   * `slices` field in *Contact Form Configuration*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: contact_form.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<ContactFormDocumentDataSlicesSlice>;
 }
 
 /**
@@ -766,6 +803,8 @@ export interface MessageDocumentDataLinkedResourcesItem {
    */
   resources: prismic.ContentRelationshipField<"resource">;
 }
+
+type MessageDocumentDataSlicesSlice = never;
 
 /**
  * Content for Message documents
@@ -915,6 +954,17 @@ interface MessageDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   channel: prismic.ContentRelationshipField<"channel">;
+
+  /**
+   * `slices` field in *Message*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: message.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<MessageDocumentDataSlicesSlice>;
 }
 
 /**
@@ -932,6 +982,8 @@ export type MessageDocument<Lang extends string = string> =
     "message",
     Lang
   >;
+
+type NotificationBannerDocumentDataSlicesSlice = never;
 
 /**
  * Content for Notification Banner documents
@@ -957,7 +1009,7 @@ interface NotificationBannerDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  url: prismic.LinkField;
+  url: prismic.LinkField<string, string, unknown, prismic.FieldState, never>;
 
   /**
    * active field in *Notification Banner*
@@ -970,6 +1022,17 @@ interface NotificationBannerDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#select
    */
   active: prismic.SelectField<"no" | "yes", "filled">;
+
+  /**
+   * `slices` field in *Notification Banner*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: notification_banner.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<NotificationBannerDocumentDataSlicesSlice>;
 }
 
 /**
@@ -1136,7 +1199,13 @@ export interface PageDocumentDataBodyListOfArticlesSliceItem {
    * - **API ID Path**: page.body[].list_of_articles.items.articles_to_link
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  articles_to_link: prismic.LinkField;
+  articles_to_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -1494,6 +1563,8 @@ export type QuickLinksDocument<Lang extends string = string> =
     Lang
   >;
 
+type RedirectDocumentDataSlicesSlice = never;
+
 /**
  * Item in *Redirect → Gallery List*
  */
@@ -1552,7 +1623,13 @@ interface RedirectDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  destination: prismic.LinkField;
+  destination: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Permanent field in *Redirect*
@@ -1564,7 +1641,18 @@ interface RedirectDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#boolean
    */
-  permanent: prismic.BooleanField /**
+  permanent: prismic.BooleanField;
+
+  /**
+   * `slices` field in *Redirect*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: redirect.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<RedirectDocumentDataSlicesSlice> /**
    * Contact form field in *Redirect*
    *
    * - **Field Type**: Select
@@ -1694,6 +1782,8 @@ export type RedirectDocument<Lang extends string = string> =
     Lang
   >;
 
+type ResourceDocumentDataSlicesSlice = never;
+
 /**
  * Content for Resources documents
  */
@@ -1729,7 +1819,18 @@ interface ResourceDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link: prismic.LinkField;
+  link: prismic.LinkField<string, string, unknown, prismic.FieldState, never>;
+
+  /**
+   * `slices` field in *Resources*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: resource.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<ResourceDocumentDataSlicesSlice>;
 }
 
 /**
@@ -1762,6 +1863,8 @@ export interface SeriesDocumentDataLinkedResourcesItem {
    */
   resources: prismic.ContentRelationshipField<"resource">;
 }
+
+type SeriesDocumentDataSlicesSlice = never;
 
 /**
  * Content for Series documents
@@ -1823,6 +1926,17 @@ interface SeriesDocumentData {
   linked_resources: prismic.GroupField<
     Simplify<SeriesDocumentDataLinkedResourcesItem>
   >;
+
+  /**
+   * `slices` field in *Series*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: series.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<SeriesDocumentDataSlicesSlice>;
 }
 
 /**
@@ -1836,6 +1950,8 @@ interface SeriesDocumentData {
  */
 export type SeriesDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<SeriesDocumentData>, "series", Lang>;
+
+type SiteConfigDocumentDataSlicesSlice = never;
 
 /**
  * Item in *Site Config → Top Navigation*
@@ -1983,7 +2099,18 @@ interface SiteConfigDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#color
    */
-  background_colour: prismic.ColorField /**
+  background_colour: prismic.ColorField;
+
+  /**
+   * `slices` field in *Site Config*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: site_config.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<SiteConfigDocumentDataSlicesSlice> /**
    * Facebook field in *Site Config*
    *
    * - **Field Type**: Link
@@ -1992,7 +2119,13 @@ interface SiteConfigDocumentData {
    * - **Tab**: Contact
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */;
-  facebook: prismic.LinkField;
+  facebook: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Twitter field in *Site Config*
@@ -2003,7 +2136,13 @@ interface SiteConfigDocumentData {
    * - **Tab**: Contact
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  twitter: prismic.LinkField;
+  twitter: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Instagram field in *Site Config*
@@ -2014,7 +2153,13 @@ interface SiteConfigDocumentData {
    * - **Tab**: Contact
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  instagram: prismic.LinkField;
+  instagram: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Phone Number field in *Site Config*
@@ -2090,6 +2235,8 @@ export type SiteConfigDocument<Lang extends string = string> =
     Lang
   >;
 
+type SocialLinksDocumentDataSlicesSlice = never;
+
 /**
  * Content for Social Links documents
  */
@@ -2103,7 +2250,13 @@ interface SocialLinksDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  instagramUrl: prismic.LinkField;
+  instagramUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Facebook Url field in *Social Links*
@@ -2114,7 +2267,13 @@ interface SocialLinksDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  facebookUrl: prismic.LinkField;
+  facebookUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Youtube Url field in *Social Links*
@@ -2125,7 +2284,13 @@ interface SocialLinksDocumentData {
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  youtubeUrl: prismic.LinkField;
+  youtubeUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * title field in *Social Links*
@@ -2137,6 +2302,17 @@ interface SocialLinksDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   title: prismic.KeyTextField;
+
+  /**
+   * `slices` field in *Social Links*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: social-links.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<SocialLinksDocumentDataSlicesSlice>;
 }
 
 /**
@@ -2154,6 +2330,8 @@ export type SocialLinksDocument<Lang extends string = string> =
     "social-links",
     Lang
   >;
+
+type SpeakerDocumentDataSlicesSlice = never;
 
 /**
  * Content for Speaker documents
@@ -2213,6 +2391,17 @@ interface SpeakerDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   thumbnail: prismic.ImageField<never>;
+
+  /**
+   * `slices` field in *Speaker*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: speaker.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<SpeakerDocumentDataSlicesSlice>;
 }
 
 /**
@@ -2232,11 +2421,11 @@ export type SpeakerDocument<Lang extends string = string> =
   >;
 
 /**
- * Primary content in *Static Footer → Slice zone → Link list → Primary*
+ * Primary content in *Static Footer → Slice Zone → Link list → Primary*
  */
 export interface StaticFooterDocumentDataBodyLinkListSlicePrimary {
   /**
-   * Title field in *Static Footer → Slice zone → Link list → Primary*
+   * Title field in *Static Footer → Slice Zone → Link list → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -2247,11 +2436,11 @@ export interface StaticFooterDocumentDataBodyLinkListSlicePrimary {
 }
 
 /**
- * Item content in *Static Footer → Slice zone → Link list → Items*
+ * Item content in *Static Footer → Slice Zone → Link list → Items*
  */
 export interface StaticFooterDocumentDataBodyLinkListSliceItem {
   /**
-   * Link Title field in *Static Footer → Slice zone → Link list → Items*
+   * Link Title field in *Static Footer → Slice Zone → Link list → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -2261,18 +2450,24 @@ export interface StaticFooterDocumentDataBodyLinkListSliceItem {
   link_title: prismic.KeyTextField;
 
   /**
-   * Link URL field in *Static Footer → Slice zone → Link list → Items*
+   * Link URL field in *Static Footer → Slice Zone → Link list → Items*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
    * - **API ID Path**: static_footer.body[].link_list.items.link_url
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link_url: prismic.LinkField;
+  link_url: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
- * Slice for *Static Footer → Slice zone*
+ * Slice for *Static Footer → Slice Zone*
  */
 export type StaticFooterDocumentDataBodyLinkListSlice = prismic.Slice<
   "link_list",
@@ -2288,7 +2483,7 @@ type StaticFooterDocumentDataBodySlice =
  */
 interface StaticFooterDocumentData {
   /**
-   * Slice zone field in *Static Footer*
+   * Slice Zone field in *Static Footer*
    *
    * - **Field Type**: Slice Zone
    * - **Placeholder**: *None*
@@ -2353,7 +2548,13 @@ export interface ButtonSliceDefaultSlicePrimary {
    * - **API ID Path**: button.default-slice.primary.linkUrl
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  linkUrl: prismic.LinkField;
+  linkUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Size field in *Button → Default slice → Primary*
@@ -2466,7 +2667,13 @@ export interface CardSliceDefaultPrimary {
    * - **API ID Path**: card.default.primary.ctaLink
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  ctaLink: prismic.LinkField;
+  ctaLink: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Colour field in *Card → Default → Primary*
@@ -2641,7 +2848,13 @@ export interface CardSliceTextCardPrimary {
    * - **API ID Path**: card.textCard.primary.ctaLink
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  ctaLink: prismic.LinkField;
+  ctaLink: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Colour field in *Card → TextCard → Primary*
@@ -2721,7 +2934,13 @@ export interface CardSliceTitleCardPrimary {
    * - **API ID Path**: card.titleCard.primary.ctaLink
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  ctaLink: prismic.LinkField;
+  ctaLink: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Colour field in *Card → Title Card → Primary*
@@ -2791,7 +3010,13 @@ export interface CardSliceImageCardPrimary {
    * - **API ID Path**: card.imageCard.primary.ctaLink
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  ctaLink: prismic.LinkField;
+  ctaLink: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
    * Colour field in *Card → ImageCard → Primary*
@@ -3020,7 +3245,13 @@ export interface FooterSliceDefaultSliceItem {
    * - **API ID Path**: footer.items[].linkUrl
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  linkUrl: prismic.LinkField;
+  linkUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -3166,7 +3397,13 @@ export interface HeaderSliceHeroWithImageItem {
    * - **API ID Path**: header.items[].linkUrl
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  linkUrl: prismic.LinkField;
+  linkUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -3307,7 +3544,13 @@ export interface HeaderSliceHeroWithCustomComponentItem {
    * - **API ID Path**: header.items[].linkUrl
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  linkUrl: prismic.LinkField;
+  linkUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -3401,7 +3644,13 @@ export interface HeaderSliceHeroWithVideoItem {
    * - **API ID Path**: header.items[].linkUrl
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  linkUrl: prismic.LinkField;
+  linkUrl: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -3458,7 +3707,7 @@ export interface LinkSliceDefaultPrimary {
    * - **API ID Path**: link.default.primary.url
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  url: prismic.LinkField;
+  url: prismic.LinkField<string, string, unknown, prismic.FieldState, never>;
 }
 
 /**
@@ -3650,6 +3899,17 @@ declare module "@prismicio/client" {
     ): prismic.Client<AllDocumentTypes>;
   }
 
+  interface CreateWriteClient {
+    (
+      repositoryNameOrEndpoint: string,
+      options: prismic.WriteClientConfig,
+    ): prismic.WriteClient<AllDocumentTypes>;
+  }
+
+  interface CreateMigration {
+    (): prismic.Migration<AllDocumentTypes>;
+  }
+
   namespace Content {
     export type {
       AcademyPageDocument,
@@ -3673,12 +3933,15 @@ declare module "@prismicio/client" {
       ContactFormDocument,
       ContactFormDocumentData,
       ContactFormDocumentDataCategoryItem,
+      ContactFormDocumentDataSlicesSlice,
       MessageDocument,
       MessageDocumentData,
       MessageDocumentDataSpeakersItem,
       MessageDocumentDataLinkedResourcesItem,
+      MessageDocumentDataSlicesSlice,
       NotificationBannerDocument,
       NotificationBannerDocumentData,
+      NotificationBannerDocumentDataSlicesSlice,
       PageDocument,
       PageDocumentData,
       PageDocumentDataBodyTeamSlicePrimary,
@@ -3697,21 +3960,27 @@ declare module "@prismicio/client" {
       QuickLinksDocumentDataSlicesSlice,
       RedirectDocument,
       RedirectDocumentData,
+      RedirectDocumentDataSlicesSlice,
       RedirectDocumentDataGalleryListItem,
       RedirectDocumentDataChildPagesItem,
       ResourceDocument,
       ResourceDocumentData,
+      ResourceDocumentDataSlicesSlice,
       SeriesDocument,
       SeriesDocumentData,
       SeriesDocumentDataLinkedResourcesItem,
+      SeriesDocumentDataSlicesSlice,
       SiteConfigDocument,
       SiteConfigDocumentData,
+      SiteConfigDocumentDataSlicesSlice,
       SiteConfigDocumentDataTopNavigationItem,
       SiteConfigDocumentDataFooterNavigationItem,
       SocialLinksDocument,
       SocialLinksDocumentData,
+      SocialLinksDocumentDataSlicesSlice,
       SpeakerDocument,
       SpeakerDocumentData,
+      SpeakerDocumentDataSlicesSlice,
       StaticFooterDocument,
       StaticFooterDocumentData,
       StaticFooterDocumentDataBodyLinkListSlicePrimary,

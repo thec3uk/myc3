@@ -1,0 +1,178 @@
+[
+  {
+    "title": {
+      "__TYPE__": "FieldContent",
+      "value": "brave",
+      "type": "Text"
+    },
+    "alt_title": {
+      "__TYPE__": "FieldContent",
+      "value": "mainly",
+      "type": "Text"
+    },
+    "short_title": {
+      "__TYPE__": "FieldContent",
+      "value": "work",
+      "type": "Text"
+    },
+    "author": {
+      "__TYPE__": "FieldContent",
+      "value": "price",
+      "type": "Text"
+    },
+    "description": {
+      "__TYPE__": "FieldContent",
+      "value": "enough",
+      "type": "Text"
+    },
+    "logo": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+        "width": 4000,
+        "height": 6000
+      },
+      "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+      "width": 4000,
+      "height": 6000,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "banner": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+        "width": 4160,
+        "height": 3120
+      },
+      "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+      "width": 4160,
+      "height": 3120,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "favicon": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+        "width": 6000,
+        "height": 4000
+      },
+      "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+      "width": 6000,
+      "height": 4000,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "theme_colour": {
+      "__TYPE__": "FieldContent",
+      "value": "#a3ecca",
+      "type": "Color"
+    },
+    "background_colour": {
+      "__TYPE__": "FieldContent",
+      "value": "#f20bd6",
+      "type": "Color"
+    },
+    "facebook": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "ExternalLink",
+        "url": "https://slicemachine.dev"
+      }
+    },
+    "twitter": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "ExternalLink",
+        "url": "http://google.com"
+      }
+    },
+    "instagram": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "ExternalLink",
+        "url": "http://google.com"
+      }
+    },
+    "phone_number": {
+      "__TYPE__": "FieldContent",
+      "value": "caught",
+      "type": "Text"
+    },
+    "contact_email": {
+      "__TYPE__": "FieldContent",
+      "value": "chest",
+      "type": "Text"
+    },
+    "twitter_username": {
+      "__TYPE__": "FieldContent",
+      "value": "alike",
+      "type": "Text"
+    },
+    "top_navigation": {
+      "__TYPE__": "GroupContentType",
+      "value": [
+        {
+          "__TYPE__": "GroupItemContent",
+          "value": [
+            [
+              "navigation_link",
+              {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "DocumentLink",
+                  "id": "mock_document_id"
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "footer_navigation": {
+      "__TYPE__": "GroupContentType",
+      "value": [
+        {
+          "__TYPE__": "GroupItemContent",
+          "value": [
+            [
+              "footer_link",
+              {
+                "__TYPE__": "LinkContent",
+                "value": {
+                  "__TYPE__": "DocumentLink",
+                  "id": "mock_document_id"
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  }
+]

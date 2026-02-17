@@ -1,0 +1,21 @@
+[
+  {
+    "title": {
+      "__TYPE__": "FieldContent",
+      "value": "sitting",
+      "type": "Text"
+    },
+    "description": {
+      "__TYPE__": "FieldContent",
+      "value": "food",
+      "type": "Text"
+    },
+    "link": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "ExternalLink",
+        "url": "http://twitter.com"
+      }
+    }
+  }
+]

@@ -3,6 +3,7 @@
   "label": "Social Links",
   "repeatable": true,
   "status": true,
+  "format": "custom",
   "json": {
     "Main": {
       "instagramUrl": {
@@ -38,6 +39,10 @@
           "label": "title",
           "placeholder": ""
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone"
       }
     }
   }

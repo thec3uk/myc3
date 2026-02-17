@@ -3,6 +3,7 @@
   "label": "Quick Links",
   "repeatable": true,
   "status": true,
+  "format": "custom",
   "json": {
     "Main": {
       "title": {

@@ -1,0 +1,76 @@
+[
+  {
+    "form_name": {
+      "__TYPE__": "FieldContent",
+      "value": "orbit",
+      "type": "Text"
+    },
+    "name_label": {
+      "__TYPE__": "FieldContent",
+      "value": "simply",
+      "type": "Text"
+    },
+    "email_label": {
+      "__TYPE__": "FieldContent",
+      "value": "took",
+      "type": "Text"
+    },
+    "category_label": {
+      "__TYPE__": "FieldContent",
+      "value": "mirror",
+      "type": "Text"
+    },
+    "subject_label": {
+      "__TYPE__": "FieldContent",
+      "value": "universe",
+      "type": "Text"
+    },
+    "message_label": {
+      "__TYPE__": "FieldContent",
+      "value": "flow",
+      "type": "Text"
+    },
+    "submit_button_label": {
+      "__TYPE__": "FieldContent",
+      "value": "east",
+      "type": "Text"
+    },
+    "category": {
+      "__TYPE__": "GroupContentType",
+      "value": [
+        {
+          "__TYPE__": "GroupItemContent",
+          "value": [
+            [
+              "category_name",
+              {
+                "__TYPE__": "FieldContent",
+                "value": "hat",
+                "type": "Text"
+              }
+            ],
+            [
+              "email_recipient",
+              {
+                "__TYPE__": "FieldContent",
+                "value": "wonderful",
+                "type": "Text"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "thank_you_message": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Culpa excepteur reprehenderit adipisicing tempor irure."
+          }
+        }
+      ]
+    }
+  }
+]

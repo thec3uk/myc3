@@ -5,15 +5,18 @@ import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 
 const Page = (props) => {
-  const bgImage = props.data?.background_image?.url
-  let styles = {}
+  const bgImage = props.data?.background_image?.url;
+  let styles = {};
   if (bgImage !== null) {
     styles = {
-      backgroundImage: `url(${bgImage})`
-    }
+      backgroundImage: `url(${bgImage})`,
+    };
   }
   return (
-    <div className="absolute w-screen min-h-screen pb-4 bg-gray-50" style={styles}>
+    <div
+      className="absolute w-screen min-h-screen pb-4 bg-gray-50"
+      style={styles}
+    >
       <SliceZone {...props} resolver={resolver} />
     </div>
   );
@@ -22,20 +25,23 @@ const Page = (props) => {
 const multiQueryTypes = ["repeat", "repeatable", "multi"];
 
 async function query({ queryType, apiParams, type, client }) {
+  console.log(apiParams);
   const { uid, ...restApiParams } = apiParams;
+
   const caller =
     multiQueryTypes.indexOf(queryType) !== -1
       ? ["getByUID", [type, uid, restApiParams]]
       : ["getSingle", [type, restApiParams]];
 
-
+  console.log(caller);
   try {
     return await client[caller[0]](...caller[1]);
   } catch (error) {
-    console.error(error)
-    return {tags:[]}
+    console.log("??????????");
+    console.error(error);
+    console.log("??????????");
+    return { tags: [] };
   }
-
 }
 // COPY END
 
@@ -53,7 +59,7 @@ export const getServerSideProps = async ({
       { ref },
       {
         uid: params.uid,
-      }
+      },
     ),
     type: "redirect",
     client: MyClient(),
@@ -77,17 +83,20 @@ export const getServerSideProps = async ({
       { ref },
       {
         uid: params.uid,
-      }
+      },
     ),
     type: "page",
     client: MyClient(),
   });
+  console.log("!!!!!!!!!");
+  console.log(page);
+  console.log("!!!!!!!!!");
   if (page && page.tags.includes("domain:myc3.life")) {
     return {
       props: { ...page, slices: page.data.body },
     };
   }
-  return {notFound: true,}
+  return { notFound: true };
 };
 
 export default Page;

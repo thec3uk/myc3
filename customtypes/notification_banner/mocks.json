@@ -1,0 +1,21 @@
+[
+  {
+    "content": {
+      "__TYPE__": "FieldContent",
+      "value": "discuss",
+      "type": "Text"
+    },
+    "url": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "ExternalLink",
+        "url": "https://slicemachine.dev"
+      }
+    },
+    "active": {
+      "__TYPE__": "FieldContent",
+      "value": "no",
+      "type": "Select"
+    }
+  }
+]
