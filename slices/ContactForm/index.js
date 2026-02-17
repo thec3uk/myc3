@@ -71,7 +71,7 @@ const ContactForm = ({ slice }) => {
     setFormState("submitting");
 
     try {
-      await fetch("/contact", {
+      await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
@@ -125,7 +125,6 @@ const ContactForm = ({ slice }) => {
               Do not fill this out: <input name="bot-field" />
             </label>
           </p>
-          <input type="hidden" name="form-name" value="contact" />
           {/* Name */}
           <div className="mb-4">
             <label htmlFor={`name-${formName}`} className={labelClasses}>

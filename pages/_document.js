@@ -24,24 +24,6 @@ export default class extends Document {
           )}
         </Head>
         <body>
-          {/* Hidden form for Netlify Forms build-time detection */}
-          <form
-            name="contact"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            hidden
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <input name="bot-field" />
-            <input name="name" />
-            <input name="email" />
-            <select name="category">
-              <option value=""></option>
-            </select>
-            <input name="subject" />
-            <textarea name="message"></textarea>
-            <input name="consent" />
-          </form>
           <Main />
           <NextScript />
         </body>
