@@ -53,13 +53,6 @@ const ContactForm = ({ slice }) => {
     }
   };
 
-  const encode = (data) =>
-    Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]),
-      )
-      .join("&");
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -71,10 +64,10 @@ const ContactForm = ({ slice }) => {
     setFormState("submitting");
 
     try {
-      await fetch("/", {
+      const res = await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({
+        body: new URLSearchParams({
           "form-name": formName,
           name: formData.name,
           email: formData.email,
@@ -82,9 +75,13 @@ const ContactForm = ({ slice }) => {
           subject: formData.subject,
           message: formData.message,
           consent: formData.consent ? "yes" : "no",
-        }),
+        }).toString(),
       });
-      setFormState("success");
+      if (res.status === 200) {
+        setFormState("success");
+      } else {
+        setFormState("error");
+      }
     } catch (err) {
       console.error("Form submission error:", err);
       setFormState("error");
