@@ -56,7 +56,7 @@ const ContactForm = ({ slice }) => {
   const encode = (data) =>
     Object.keys(data)
       .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]),
       )
       .join("&");
 
@@ -113,7 +113,12 @@ const ContactForm = ({ slice }) => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 justify-center items-center my-6">
       <div className="md:col-span-1 md:col-start-2 px-4">
-        <form onSubmit={handleSubmit} noValidate>
+        <form
+          onSubmit={handleSubmit}
+          noValidate
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           {/* Honeypot */}
           <p className="hidden">
             <label>
@@ -156,10 +161,7 @@ const ContactForm = ({ slice }) => {
           {/* Category */}
           {categories.length > 0 && (
             <div className="mb-4">
-              <label
-                htmlFor={`category-${formName}`}
-                className={labelClasses}
-              >
+              <label htmlFor={`category-${formName}`} className={labelClasses}>
                 {category_label || "Category"}
               </label>
               <select
@@ -195,9 +197,7 @@ const ContactForm = ({ slice }) => {
               onChange={handleChange}
               className={inputClasses}
             />
-            {errors.subject && (
-              <p className={errorClasses}>{errors.subject}</p>
-            )}
+            {errors.subject && <p className={errorClasses}>{errors.subject}</p>}
           </div>
 
           {/* Message */}
@@ -213,9 +213,7 @@ const ContactForm = ({ slice }) => {
               onChange={handleChange}
               className={inputClasses}
             />
-            {errors.message && (
-              <p className={errorClasses}>{errors.message}</p>
-            )}
+            {errors.message && <p className={errorClasses}>{errors.message}</p>}
           </div>
 
           {/* Consent */}
@@ -236,9 +234,7 @@ const ContactForm = ({ slice }) => {
                 )}
               </span>
             </label>
-            {errors.consent && (
-              <p className={errorClasses}>{errors.consent}</p>
-            )}
+            {errors.consent && <p className={errorClasses}>{errors.consent}</p>}
           </div>
 
           {/* Error banner */}
