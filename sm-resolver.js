@@ -1,7 +1,25 @@
 import * as Slices from "./slices";
+import Button from "./slices/Button";
+import Card from "./slices/Card";
 import ContactForm from "./slices/ContactForm";
+import Footer from "./slices/Footer";
+import Header from "./slices/Header";
+import Link from "./slices/Link";
+import Media from "./slices/Media";
+import Text from "./slices/Text";
 
-const __allSlices = { ...Slices, ...Slices.components, ContactForm };
+const __allSlices = {
+  ...Slices,
+  ...Slices.components,
+  Button,
+  Card,
+  ContactForm,
+  Footer,
+  Header,
+  Link,
+  Media,
+  Text,
+};
 
 const NotFound = ({ sliceName, slice, i }) => {
   console.error(
