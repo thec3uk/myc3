@@ -71,7 +71,7 @@ const ContactForm = ({ slice }) => {
     setFormState("submitting");
 
     try {
-      await fetch("/", {
+      await fetch("/contact", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
